@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Processing Center",
+		"maintenance": 2,
+		"uniqueTo": "Galactic Empire",
+		"replaces": "Forge",
+		"cost": 150,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+5]% Production when constructing [Military] units [in all cities]",
+			"[+40]% Production when constructing [Stormtrooper] units [in this city]",
+			"[+1 Science] from [Iron] tiles [in this city]",
+			"[+1 Culture] from [Iron] tiles [in this city]"]
+	},
+	{
+		"name": "Secret Facility",
+		"cost": 550,
+		"maintenance": 3,
+		"uniqueTo": "Galactic Empire",
+		"requiredBuilding": "Research Lab"
+		"requiredTech": "Plastics"
+		"uniques": ["[+2 Production] from every [Mine]",
+		"[+1 Production] from every [Iron]",
+		"[+30]% Production when constructing [Armored] units [in this city]",
+		"[+30]% Production when constructing [Air] units [in this city]"],
+		"requiredTech": "Atomic Theory"
+	},
+	{
+		"name": "Galactic Senate",
+		"cost": 1000,
+		"requiredBuilding": "Palace"
+		"uniqueTo": "Galactic Empire",
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["[-50]% unhappiness from population [in all cities]","Cost increases by [50] per owned city"],
+		"requiredTech": "Telecommunications"
+	}
+]

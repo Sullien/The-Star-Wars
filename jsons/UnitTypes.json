@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Starship",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+]

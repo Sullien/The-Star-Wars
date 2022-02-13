@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Galactic Empire",
+		"leaderName": "Darth Vader",
+		"adjective": ["Imperial"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Look Alive, General: You have been chosen personally to lead the Empire Occupation of this planet alongside Lord Vader, who will be overseeing your progress.",
+		"startIntroPart2": "Our Mission? It has been revealed that this land has many valuable resources to the empire, and that there might be enemies of the empire being fostered here. You are to investigate, claim the resources for the empire and, if enemies are to be found, destroy them for the empire.",					
+		
+		"declaringWar": "Your lack of foresight will be your demise.",
+		"attacked": "I will show you the power of the Dark Side.",
+		"defeated": "Nooooooo",
+		"introduction": "...",
+		"neutralHello": "...Speak",		
+		"neutralLetsHearIt": "An offer?",
+		"neutralNo": "No.",
+		"neutralYes": "It is...Acceptable.",
+		"hateHello": "I am surprised you still live.",	
+		"hateLetsHearIt": "...Speak Fast.",
+		"hateNo": "No",
+		"hateYes": "It is...Acceptable.",
+		"afterPeace": "Enjoy your order, for now...",
+		"tradeRequest": "It would not be wise to enrage my master.",
+		
+		"outerColor": [245,245,245],
+		"innerColor": [10,10,10],
+		"uniqueName": "Altering the deal",
+		"uniques": ["Science gained from research agreements [+100]%",
+		"[+1 Science] from every [Mine]",
+		"[+1 Production] from every [Iron]",
+		"[+1 Culture] from every [Aluminum]",
+		"Starts with [Iron Working]"]
+		"cities": ["Coruscant","Kamino","Nevarro","Bacrana","Balosar","Bandomeer","Naboo","Dathomir","Illum","Alzoc","Byss","Corulag",Corellia","Kashyyk","Shola","Kyloth","Bespin","Bestine","Sullust","Polus","Jabiin","Carida","Anaxes","Fondor"]
+	}
+]
