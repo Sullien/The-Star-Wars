@@ -117,5 +117,22 @@
 		"uniques": ["Can carry [4] [Military] units", "No defensive terrain bonus",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Never appears as a Barbarian unit"],
 		"attackSound": "athit"
+	},
+       {
+		"name": "Scout Speeder",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Galactic Empire",
+		"movement": ?,
+		"range": ?,
+		"interceptRange": ?,
+		"strength": ?,
+		"rangedStrength": ?,
+		"cost": ?,
+		"requiredTech": "Plastic",
+		"requiredResource": "Iron",
+		"uniques": ["?", "No defensive terrain bonus",
+			"?", "Never appears as a Barbarian unit"],
+		"attackSound": "athit"
 	}
 ]
