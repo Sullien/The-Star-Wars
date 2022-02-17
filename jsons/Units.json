@@ -134,5 +134,21 @@
 		"uniques": ["?", "No defensive terrain bonus",
 			"?", "Never appears as a Barbarian unit"],
 		"attackSound": "athit"
-	}
+	},
+       {
+		"name": "Death Star",
+		"unitType": "Battle Station",
+		"uniqueTo": "Galactic Empire",
+		"movement": 10,
+		"range": 7,
+		"interceptRange": 6,
+		"strength": 1000,
+		"rangedStrength": 120,
+		"cost": 10000,
+		"requiredTech": "Future Tech",
+		"requiredResource": "Uranium", "Iron", "Oil", "Aluminum", "Gems", "Silver", "Copper", 
+		"uniques": ["Can carry [10] [Military] units", "No defensive terrain bonus",
+			"All tiles cost 3 movement", "Ignores Zone of Control", "Never appears as a Barbarian unit"],
+		"attackSound": "deathstarsuperlaser"
+	},
 ]
