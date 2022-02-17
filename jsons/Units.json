@@ -137,7 +137,7 @@
 	},
        {
 		"name": "Death Star",
-		"unitType": "Battle Station",
+		"unitType": "Starship",
 		"uniqueTo": "Galactic Empire",
 		"movement": 10,
 		"range": 7,
