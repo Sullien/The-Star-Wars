@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Probe Droid",
+		"name": "Imperial Probe Droid Mk I",
 		"unitType": "Scout",
 		"uniqueTo": "Galactic Empire",
         "movement": 3,
@@ -150,5 +150,24 @@
 		"uniques": ["Can carry [10] [Military] units", "No defensive terrain bonus",
 			"All tiles cost 3 movement", "Ignores Zone of Control", "Never appears as a Barbarian unit"],
 		"attackSound": "deathstarsuperlaser"
+	},
+      {
+		"name": "Imperial Probe Droid Mk II",
+		"uniqueTo": "Galactic Empire",
+		"unitType": "Scout",
+		"movement": 3,
+	        "range": 4,
+		"strength": 12,
+		"rangedStrength": 7,
+	        "cost": 200,
+		"requiredResource": "Iron",
+		"requiredTech": "Satellites",
+		"uniques": ["Ignores terrain cost",
+			"Can pass through impassable tiles",
+			"Can see invisible [Land] units",
+			"[+1] Sight",
+			"May withdraw before melee ([100]%)"]
+	                "May enter foreign tiles without open borders",
+	        "attackSound": "blasterhit"
 	},
 ]
