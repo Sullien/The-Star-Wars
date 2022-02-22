@@ -1,0 +1,251 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Astromech Droids
+  rotate: false
+  xy: 212, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Galactic Senate
+  rotate: false
+  xy: 428, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Macrobinoculars Project
+  rotate: false
+  xy: 536, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Processing Center
+  rotate: false
+  xy: 752, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Refugee Shelter
+  rotate: false
+  xy: 860, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Secret Facility
+  rotate: false
+  xy: 860, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Secret Plans
+  rotate: false
+  xy: 968, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shield Generator
+  rotate: false
+  xy: 1076, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+LeaderIcons/Darth Vader
+  rotate: false
+  xy: 4, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/Luke Skywalker
+  rotate: false
+  xy: 4, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Galactic Empire
+  rotate: false
+  xy: 320, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Rebel Alliance
+  rotate: false
+  xy: 644, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/AT-AT
+  rotate: false
+  xy: 212, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/AT-ST
+  rotate: false
+  xy: 212, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bothan Spy
+  rotate: false
+  xy: 320, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Home One Cruiser
+  rotate: false
+  xy: 536, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Landspeeder
+  rotate: false
+  xy: 536, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Probe Droid
+  rotate: false
+  xy: 644, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Rebel Soldier
+  rotate: false
+  xy: 752, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Scout Speeder
+  rotate: false
+  xy: 752, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Shadow Trooper
+  rotate: false
+  xy: 968, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Snowspeeder
+  rotate: false
+  xy: 968, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Star Destroyer
+  rotate: false
+  xy: 1184, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Stormtrooper
+  rotate: false
+  xy: 1076, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/TIE Bomber
+  rotate: false
+  xy: 1184, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/TIE Fighter
+  rotate: false
+  xy: 1292, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/X Wing
+  rotate: false
+  xy: 1292, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Y Wing
+  rotate: false
+  xy: 1400, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Astromech Droid
+  rotate: false
+  xy: 320, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Energy Shield
+  rotate: false
+  xy: 428, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hyperdrive
+  rotate: false
+  xy: 428, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Macrobinoculars
+  rotate: false
+  xy: 644, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Self-Repair
+  rotate: false
+  xy: 860, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Spark of Rebellion
+  rotate: false
+  xy: 1076, 204
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Turrets
+  rotate: false
+  xy: 1184, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
