@@ -7,3 +7,4 @@ V0.2
 -Added Macrobinoculars Project Wonder for Galactic Empire
 -Added Scout Speeder
 -Added Rebel Alliance
+-Reworked Descriptions
