@@ -2,6 +2,12 @@
 
 ~Changelog
 
+V0.3
+-Slightly Buffed Landspeeder
+
+-Landspeeder are now Mounted Type
+
+
 V0.2
 -Added Intercept Range to AT-AT
 
