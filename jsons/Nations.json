@@ -39,7 +39,7 @@
 		"adjective": ["Rebel"],
 		"preferredVictoryType": "Diplomatic",
 		
-		"startIntroPart1": "Greetings. It seems the force has brought us together on this mission. You have been deployed to survey and establish a base in this planet alongside a garrison, we have received reports regarding suspicious activity I am trying to supervise the surroundings. But since we are here feel free to set up a base.",
+		"startIntroPart1": "Greetings. It seems the force has brought us together on this mission. You've been deployed to survey and establish a base in this planet. We have received reports regarding suspicious activity and I am trying to supervise the surroundings. Since we're here anyway feel free to set up a base.",
 		"startIntroPart2": "Danger is always around the corner, so make sure to be careful. Good luck, and may the force be with you.",					
 		
 		"declaringWar": "You're leaving behind a trail of chaos and destruction, I will have to stop you.",
