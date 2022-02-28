@@ -31,7 +31,7 @@
 		"[+1 Production] from every [Iron]",
 		"[+1 Culture] from every [Aluminum]",
 		"Starts with [Iron Working]"]
-		"cities": ["Coruscant","Kamino","Nevarro","Bacrana","Balosar","Bandomeer","Naboo","Dathomir","Illum","Alzoc","Byss","Corulag",Corellia","Kashyyk","Shola","Kyloth","Bespin","Bestine","Sullust","Polus","Jabiin","Carida","Anaxes","Fondor"]
+		"cities": ["Coruscant","Kamino","Nevarro","Bacrana","Balosar","Bandomeer","Naboo","Dathomir","Illum","Alzoc","Byss","Corulag","Corellia","Kashyyk","Shola","Kyloth","Bespin","Bestine","Sullust","Polus","Jabiin","Carida","Anaxes","Fondor"]
 	},
 	{
 		"name": "Rebel Alliance",
