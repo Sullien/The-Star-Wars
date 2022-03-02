@@ -2,6 +2,21 @@
 
 ~Changelog
 
+
+V0.4
+
+-Slightly Buffed Snowspeeder
+
+-AT-AT are now Ranged and cannot take cities.
+
+-Nerfed AT-AT
+
+-Lowered the costs of Unique National Wonders of Galactic Empire and Rebel Alliance
+
+-Added Smugglers
+
+-Made
+
 V0.3
 
 -Slightly Buffed Landspeeder
