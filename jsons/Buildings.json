@@ -28,7 +28,7 @@
 	},
 	{
 		"name": "Galactic Senate",
-		"cost": 1000,
+		"cost": 750,
 		"requiredBuilding": "Palace"
 		"uniqueTo": "Galactic Empire",
 		"culture": 5,
@@ -38,7 +38,7 @@
 	},
 	{
 		"name": "Macrobinoculars Project",
-		"cost": 1500,
+		"cost": 1250,
 		"requiredBuilding": "Palace"
 		"uniqueTo": "Galactic Empire",
 		"isNationalWonder": true,
@@ -72,7 +72,7 @@
 	},
 	{
 		"name": "Secret Plans",
-		"cost": 1000,
+		"cost": 750,
 		"requiredBuilding": "Palace",
 		"uniqueTo": "Rebel Alliance",
 		"isNationalWonder": true,
@@ -81,11 +81,53 @@
 	},
 	{
 		"name": "Astromech Droids",
-		"cost": 1500,
+		"cost": 1250,
 		"requiredBuilding": "Palace",
 		"uniqueTo": "Rebel Alliance",
 		"isNationalWonder": true,
 		"requiredTech": "Robotics",
 		"uniques": ["All newly-trained [Air] units [in all cities] receive the [Astromech Droid] promotion","[+17]% Production when constructing [Fighter] units [in all cities]","[+17]% Production when constructing [Bomber] units [in all cities]","Cost increases by [50] per owned city"],
-	}
+	},
+	{
+		"name": "Smuggling Center",
+		"uniqueTo": "Smugglers",
+		"replaces": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+		"uniques": ["Destroyed when the city is captured","[+1 Gold] from [Strategic resource] tiles [in this city]"]
+	},
+	{
+		"name": "Weapons Trade Center",
+		"uniqueTo": "Smugglers",
+		"replaces": "Stock Exchange",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+		"uniques": ["[+25]% Production when constructing [Military] units [in this city]", "[+2 Production] from every [Trading Post] [in this city]"]
+	},
+	{
+		"name": "Underworld Dealings",
+		"cost": 750,
+		"requiredBuilding": "Palace"
+		"uniqueTo": "Smugglers",
+		"gold": 5,
+		"isNationalWonder": true,
+		"uniques": ["[Gold] cost of purchasing items in cities [-33]%","Cost increases by [50] per owned city"],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Bounty Hunters Guild",
+		"cost": 1250,
+		"requiredBuilding": "Palace"
+		"uniqueTo": "Smugglers",
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [Bounty Hunter] units [in all cities] receive the [Illegal Weapons] promotion", "Cost increases by [50] per owned city"],
+		"requiredTech": "Mobile Tactics"
+	},
 ]

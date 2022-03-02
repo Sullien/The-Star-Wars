@@ -37,5 +37,13 @@
 	{
 		"name": "Astromech Droid",
 		"uniques": ["[+25]% Strength","Unit will heal every turn, even if it performs an action","[+5] HP when healing"],
+	},
+	{
+		"name": "Collect the Bounty",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]","May capture killed [Barbarians] units","May capture killed [Civilian] units"],
+	},
+	{
+		"name": "Illegal Weapons",
+		"uniques": ["[+25]% Strength", "[+25]% Strength <vs [Wounded] units>"],
 	}
 ]

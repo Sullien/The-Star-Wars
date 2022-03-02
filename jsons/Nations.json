@@ -5,8 +5,8 @@
 		"adjective": ["Imperial"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "It has been revealed that this land has many valuable resources to the empire, and that there might be enemies of the empire being fostered here. You are to investigate, claim the resources for the empire and, if enemies are to be found, destroy them.",
-		"startIntroPart2": "General: You have been chosen personally to lead the Empire Occupation of this planet, I will be overseeing your progress. Failure will not be tolerated.",					
+		"startIntroPart1": "It has been revealed that this land has many valuable resources to the empire, and that there might be enemies of the hiding here. Commander, you are to investigate, claim the resources for the empire and, if enemies are to be found, destroy them.",
+		"startIntroPart2": "Do not fail me, General. You have been chosen personally to lead an occupation of this planet, and I will be overseeing your progress. Failure will not be tolerated.",					
 		
 		"declaringWar": "Your lack of foresight will be your demise.",
 		"attacked": "I will show you the power of the Dark Side.",
@@ -39,8 +39,8 @@
 		"adjective": ["Rebel"],
 		"preferredVictoryType": "Diplomatic",
 		
-		"startIntroPart1": "Greetings. It seems the force has brought us together on this mission. You've been deployed to survey and establish a base in this planet. We have received reports regarding suspicious activity and I am trying to supervise the surroundings. Since we're here anyway feel free to set up a base.",
-		"startIntroPart2": "Danger is always around the corner, so make sure to be careful. Good luck, and may the force be with you.",					
+		"startIntroPart1": "Greetings. It seems the force has brought us together. I hear you got to survey and establish a base in this planet. I too have heard of there being suspicious activity here so I'm trying to supervise myself. Might as well set up a base since we're here anyway.",
+		"startIntroPart2": "Danger is always around the corner though, so make sure to be careful. Good luck, and may the force be with you.",					
 		
 		"declaringWar": "You're leaving behind a trail of chaos and destruction, I will have to stop you.",
 		"attacked": "Get ready! We're under attack!",
@@ -65,5 +65,40 @@
 		"[+33]% Production when constructing [Fighter] units [in all cities]",
 		"[+33]% Production when constructing [Bomber] units [in all cities]"]
 		"cities": ["Yavin 4", "Hoth", "Endor", "Dantooine", "Aldeeran", "Dantooine", "Ando", "Dagobah", "Castilon", "Eadu", "Kuat", "Mimbam", "Shilli", "Wrea", "Vandor", "Lothal"]
+	},
+	{
+		"name": "Smugglers",
+		"leaderName": "Jabba the Hutt",
+		"adjective": ["Smuggler"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Ahh, the prodigal one returns. I hear you have found a most suitable place for me to do operations.",
+		"startIntroPart2": "Since you offered, you will be in charge of setting my trade routes here. I expect to hear good news soon... For your own good.",					
+		
+		"declaringWar": "It appears there are many who want you dead, and so you will be.",
+		"attacked": "No one double crosses Jabba and lives.",
+		"defeated": "Fool! At least with me the underworld was under control, but soon one worse than me shall rise.",
+		"introduction": "If there's money to be made, we will get it.",
+		"neutralHello": "Come to me with a deal?",		
+		"neutralLetsHearIt": "You have an offer?",
+		"neutralNo": "I could have you hung for that.",
+		"neutralYes": "You know how to do business",
+		"hateHello": "I can feel the conflict within you.",	
+		"hateLetsHearIt": "You are hard to kill.",
+		"hateNo": "I could have you hung for that.",
+		"hateYes": "You know how to do business.",
+		"afterPeace": "This is not peace, but a pause",
+		"tradeRequest": "My latest batch of shipments has arrived.",
+		
+		"outerColor": [255,255,255],
+		"innerColor": [238,201,0],
+		"uniqueName": "Criminal Underworld",
+		"uniques": ["Workers are armed and can battle, but construct much slower",
+		"Gold from all trade routes +25%",
+		"[+50]% Strength <vs [Barbarian] units>",
+		"[+50]% Strength <vs [City-State] units>",
+		"[-25]% Production when constructing [All] buildings [in all cities]",
+		"[Bounty Hunter] units gain the [Collect the Bounty] promotion"]
+		"cities": ["Tatooine", "Corellia", "Bespin", "Zonama", "Mimbam", "Concord Dawn", "Rodia", "Passana", "Vortex", "Thyferra", "Ralltir"]
 	}
 ]
