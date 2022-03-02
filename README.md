@@ -15,6 +15,8 @@ V0.4
 
 -Added Smugglers
 
+-Made Mod Public for testing
+
 V0.3
 
 -Slightly Buffed Landspeeder
