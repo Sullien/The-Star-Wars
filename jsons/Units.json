@@ -320,7 +320,6 @@
 		"cost": 365,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Rocketry",
-		"upgradesTo": "High Bounty",
 		"uniques": ["Bounty Hunter","[+1] Sight","Can carry [1] [Missile] units"],
 		"attackSound": "blasterhit"
 	},
