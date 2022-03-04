@@ -2,12 +2,15 @@
 
 ~Changelog
 
+V0.5
+
+-High Bounty no longer upgrades to himself
 
 V0.4
 
 -Slightly Buffed Snowspeeder
 
--AT-AT are now Ranged and cannot take cities.
+-AT-AT are now Ranged and cannot take cities
 
 -Nerfed AT-AT
 
