@@ -250,7 +250,7 @@
 		"movement": 2,
 		"strength": 10,
 		"upgradesTo": "Seeker",
-		"uniques": ["Can build [Land] improvements on tiles","[+25]% tile improvement construction time"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 100,
 		"attackSound": "blasterhit"
 	},
@@ -263,7 +263,7 @@
 		"movement": 2,
 		"strength": 22,
 		"upgradesTo": "Contrabandist",
-		"uniques": ["Can build [Land] improvements on tiles","[+10]% tile improvement construction time"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 175,
 		"attackSound": "blasterhit"
 	},
@@ -330,7 +330,7 @@
 		"replaces": "Paratrooper",
 		"movement": 3,
 		"strength": 80,
-		"cost": 1,
+		"cost": 360,
 		"requiredTech": "Stealth",
 		"uniques": ["May Paradrop up to [6] tiles from inside friendly territory", "No movement cost to pillage", "Can move after attacking","Invisible to non-adjacent units"],
 		"promotions": ["Collect the Bounty"],
