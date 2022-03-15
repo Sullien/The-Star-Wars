@@ -6,6 +6,10 @@ V0.5
 
 -High Bounty no longer upgrades to himself
 
+-Infiltrators no longer costs 1 Production
+
+-Updated Smugglers Passive increasing Improvement costs
+
 V0.4
 
 -Slightly Buffed Snowspeeder
