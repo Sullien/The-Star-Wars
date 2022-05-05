@@ -1,7 +1,0 @@
-[
-    {
-        "name": "Starship",
-        "movementType": "Land",
-        "uniques": ["All tiles cost 1 movement","Can pass through impassable tiles"]
-    },
-]
