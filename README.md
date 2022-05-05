@@ -2,6 +2,10 @@
 
 ~Changelog
 
+V0.6
+
+-Added Resistance
+
 V0.5
 
 -High Bounty no longer upgrades to himself
