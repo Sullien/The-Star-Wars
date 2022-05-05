@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Level 1",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout Recruit",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+        "friendBonus": {
+            "Cultured": ["Provides [+1 Culture] per turn"],
+            "Maritime": ["Provides [+1 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+1] Happiness"],
+            "Religious": ["Provides [+1 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+2 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+            "Religious": ["Provides [+2 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[19] turns"]
+        },
+        "iconRGB": [60, 110, 240]
+    },
+	{
+        "name": "Level 2",
+        "researchAgreementCost": 200,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+		"startingSettlerUnit": "Settler (Level 2)",
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Scout Trooper",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 12,
+        "startPercent": 15,
+        "friendBonus": {
+            "Cultured": ["Provides [+1 Culture] per turn"],
+            "Maritime": ["Provides [+1 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+1] Happiness"],
+            "Religious": ["Provides [+1 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+2 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+            "Religious": ["Provides [+2 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[19] turns"]
+        },
+        "iconRGB": [255, 210, 0]
+    },
+	{
+        "name": "Level 3",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+		"startingSettlerUnit": "Settler (Level 3)",
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Scout Trooper",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 17,
+        "startPercent": 30,
+        "friendBonus": {
+            "Cultured": ["Provides [+1 Culture] per turn"],
+            "Maritime": ["Provides [+1 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+1] Happiness"],
+            "Religious": ["Provides [+1 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+2 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+            "Religious": ["Provides [+2 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[19] turns"]
+        },
+        "iconRGB": [0, 150, 0]
+    },
+	{
+        "name": "Level 4",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+		"startingSettlerUnit": "Settler (Level 4)",
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Scout Trooper",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 23,
+        "startPercent": 45,
+        "friendBonus": {
+            "Cultured": ["Provides [+1 Culture] per turn"],
+            "Maritime": ["Provides [+1 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+1] Happiness"],
+            "Religious": ["Provides [+1 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+2 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+            "Religious": ["Provides [+2 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[19] turns"]
+        },
+        "iconRGB": [220, 20, 60]
+    },
+	{
+        "name": "Level 5",
+        "researchAgreementCost": 500,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+		"startingSettlerUnit": "Settler (Level 4)",
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Scout Trooper",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 26,
+        "startPercent": 60,
+        "friendBonus": {
+            "Cultured": ["Provides [+1 Culture] per turn"],
+            "Maritime": ["Provides [+1 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+1] Happiness"],
+            "Religious": ["Provides [+1 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+2 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+2 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+            "Religious": ["Provides [+2 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[19] turns"]
+        },
+        "iconRGB": [255, 20, 47]
+    },
+]

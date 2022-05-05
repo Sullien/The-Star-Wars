@@ -1,0 +1,318 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Level 1",
+		"techCost": 10,
+		"buildingCost": 7,
+		"techs": [
+		    {
+				"name": "AI Mechanics(Easy)",
+				"row": 1,
+				"uniques": ["Only available <after discovering [AI Mechanics(Easy)]>","AI Exclusive"]
+			},
+			{
+				"name": "AI Mechanics(Normal)",
+				"row": 2,
+				"uniques": ["Only available <after discovering [AI Mechanics(Normal)]>","AI Exclusive"]
+			},
+			{
+				"name": "AI Mechanics(Hard)",
+				"row": 3,
+				"uniques": ["Only available <after discovering [AI Mechanics(Hard)]>","AI Exclusive"]
+			}
+			{
+				"name": "Center Base",
+				"row": 5,
+				"uniques": ["Starting tech","Enables conversion of city production to gold","Enables Open Borders agreements","Enables embarkation for land units"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Level 1",
+		"techCost": 15,
+		"buildingCost": 7,
+		"techs": [
+			{
+				"name": "Research",
+				"row": 2,
+				"prerequisites": ["Center Base"]
+			},
+			{
+				"name": "Expansion",
+				"row": 5,
+				"prerequisites": ["Center Base"]
+			},
+			{
+				"name": "Military",
+				"row": 8,
+				"prerequisites": ["Center Base"]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Level 1",
+		"techCost": 21,
+		"buildingCost": 12,
+		"techs": [
+			{
+				"name": "Organization",
+				"row": 1,
+				"prerequisites": ["Research"],
+			},
+			{
+				"name": "Studies",
+				"row": 3,
+				"prerequisites": ["Research"]
+			},
+			{
+				"name": "Supplies",
+				"row": 4,
+				"prerequisites": ["Expansion"]
+			},
+			{
+				"name": "Trade",
+				"row": 6,
+				"prerequisites": ["Expansion"]
+			},
+			{
+				"name": "Ranged Trooper",
+				"row": 7,
+				"prerequisites": ["Military"]
+			},
+			{
+				"name": "Mounted Trooper",
+				"row": 9,
+				"prerequisites": ["Military"]
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Level 2",
+		"techCost": 27,
+		"buildingCost": 15,
+		"techs": [
+			{
+				"name": "Processing",
+				"row": 2,
+				"prerequisites": ["Organization","Studies"]
+			},
+			{
+				"name": "Power Cores",
+				"row": 5,
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"]
+				"prerequisites": ["Supplies","Trade"]
+			},
+			{
+				"name": "Battle Training",
+				"row": 8,
+				"prerequisites": ["Ranged Trooper","Mounted Trooper"],
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Level 2",
+		"techCost": 35,
+		"buildingCost": 23,
+		"techs": [
+			{
+				"name": "Ore",
+				"row": 1,
+				"prerequisites": ["Processing"],
+			},
+			{
+				"name": "Nova",
+				"row": 3,
+				"prerequisites": ["Processing"]
+			},
+			{
+				"name": "Outposts",
+				"row": 4,
+				"prerequisites": ["Power Cores","Processing"]
+			},
+			{
+				"name": "Roads",
+				"row": 5,
+				"prerequisites": ["Power Cores"]
+			},
+			{
+				"name": "Defensive Buildings",
+				"row": 6,
+				"prerequisites": ["Power Cores","Battle Training"]
+			},
+			{
+				"name": "Mechs",
+				"row": 7,
+				"prerequisites": ["Battle Training"]
+			},
+			{
+				"name": "Tacticians",
+				"row": 9,
+				"prerequisites": ["Battle Training"]
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Level 3",
+		"techCost": 44,
+		"buildingCost": 34,
+		"techs": [
+			{
+				"name": "Specialism",
+				"row": 2,
+				"prerequisites": ["Ore","Nova"]
+			},
+			{
+				"name": "Advanced Energy",
+				"row": 5,
+				"prerequisites": ["Outposts","Roads","Defensive Buildings"]
+			},
+			{
+				"name": "Advanced Military",
+				"row": 8,
+				"prerequisites": ["Mechs","Tacticians"],
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Level 3",
+		"techCost": 54,
+		"buildingCost": 41,
+		"techs": [
+			{
+				"name": "Joint Development",
+				"row": 1,
+				"prerequisites": ["Specialism"],
+				"uniques": ["Enables adjacency bonuses on Great Improvement"]
+			},
+			{
+				"name": "Factories",
+				"row": 3,
+				"prerequisites": ["Specialism"]
+			},
+			{
+				"name": "Temples",
+				"row": 4,
+				"prerequisites": ["Advanced Energy","Specialism"]
+			},
+			{
+				"name": "Railroads",
+				"row": 5,
+				"prerequisites": ["Advanced Energy"]
+			},
+			{
+				"name": "Energy Shields",
+				"row": 6,
+				"prerequisites": ["Advanced Energy","Advanced Military"]
+			},
+			{
+				"name": "Heavy Assault",
+				"row": 7,
+				"prerequisites": ["Advanced Military"]
+			},
+			{
+				"name": "Spaceports",
+				"row": 9,
+				"prerequisites": ["Advanced Military"]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Level 4",
+		"techCost": 65,
+		"buildingCost": 42,
+		"techs": [
+			{
+				"name": "Optimization",
+				"row": 2,
+				"prerequisites": ["Joint Development","Factories"]
+			},
+			{
+				"name": "Fortress",
+				"row": 5,
+				"prerequisites": ["Temples","Railroads","Energy Shields"]
+			},
+			{
+				"name": "Repeaters",
+				"row": 8,
+				"prerequisites": ["Heavy Assault","Spaceports"],
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Level 4",
+		"techCost": 77,
+		"buildingCost": 50,
+		"techs": [
+			{
+				"name": "Scanning",
+				"row": 1,
+				"prerequisites": ["Optimization"],
+			},
+			{
+				"name": "Galactic Trade",
+				"row": 3,
+				"prerequisites": ["Optimization"]
+			},
+			{
+				"name": "The Force",
+				"row": 4,
+				"prerequisites": ["Fortress","Optimization"]
+			},
+			{
+				"name": "Planned Development",
+				"row": 5,
+				"prerequisites": ["Fortress"]
+			},
+			{
+				"name": "Superconductors",
+				"row": 6,
+				"prerequisites": ["Fortress","Repeaters"]
+			},
+			{
+				"name": "Military Fleet",
+				"row": 7,
+				"prerequisites": ["Repeaters"]
+			},
+			{
+				"name": "Orbital Strikes",
+				"row": 9,
+				"prerequisites": ["Repeaters"]
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Level 5",
+		"techCost": 90,
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Heroes",
+				"row": 5,
+				"prerequisites": ["Scanning","Galactic Trade","The Force","Planned Development","Planned Development","Superconductors","Military Fleet","Orbital Strikes"]
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Level 5",
+		"techCost": 104,
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Heroes"],
+				"uniques": ["Can be continually researched"],
+			}
+		]
+	},
+]

@@ -1,0 +1,2421 @@
+[  
+   //AI Exclusive
+   {
+		"name": "Luxury Worker",
+		"unitType": "Civilian",
+		"cost": 16,
+		"obsoleteTech" : "Power Cores",
+		"uniques": ["Can construct [Trade Point]","Unbuildable","Uncapturable","Will not be displayed in Civilopedia"],
+		"movement": 2
+		
+	},
+	{
+		"name": "Strategic Worker",
+		"unitType": "Civilian",
+		"cost": 16,
+		"obsoleteTech" : "Power Cores",
+		"uniques": ["Can construct [Extractor]","Unbuildable","Uncapturable","Will not be displayed in Civilopedia"],
+		"movement": 2
+	},
+    //Heroes
+	{
+		"name": "Luke Skywalker",
+		"replaces": "Hero",
+		"uniqueTo": "Rebel Alliance"
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Culture]","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"]
+		"promotions": ["Hero","Lightsaber","Return of the Jedi"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Luke Skywalker",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Darth Vader",
+		"replaces": "Hero",
+		"uniqueTo": "Galactic Empire"
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Science]","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"]
+		"promotions": ["Hero","Lightsaber","Merciless"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Boba Fett",
+		"replaces": "Hero",
+		"uniqueTo": "Smugglers"
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Production]","[+125]% Strength <vs [Jedi] units>"]
+		"promotions": ["Hero","Jetpack","Payday"],
+		"attackSound": "blasterhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Boba Fett",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Obi-Wan Kenobi",
+		"replaces": "Hero",
+		"uniqueTo": "Galactic Republic"
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Production]","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"]
+		"promotions": ["Hero","Lightsaber","Defensive Stance"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Obi-Wan Kenobi",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Anakin Skywalker",
+		"replaces": "Hero",
+		"uniqueTo": "Separatists"
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Science]","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"]
+		"promotions": ["Hero","Lightsaber","Swordplay"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Anakin Skywalker",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Yoda",
+		"replaces": "Hero",
+		"uniqueTo": "The Jedi Order"
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Culture]","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"]
+		"promotions": ["Hero","Force Lightning","Wisdom"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Yoda",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Rey",
+		"replaces": "Hero",
+		"uniqueTo": "Resistance"
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Culture]","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"]
+		"promotions": ["Hero","Lightsaber","Force Healing"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Rey",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Kylo Ren",
+		"replaces": "Hero",
+		"uniqueTo": "First Order"
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Science]","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"]
+		"promotions": ["Hero","Lightsaber","Scarred"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Kylo Ren",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Emperor Palpatine",
+		"replaces": "Hero",
+		"uniqueTo": "Sith Eternal"
+		"unitType": "Jedi",
+		"movement": 2,
+		"range": 2,
+		"strength": 80,
+		"rangedStrength": 80.
+		"interceptRange": 2,
+		"uniques": ["Level 5","Unbuildable","Great Person - [Production]","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>"]
+		"promotions": ["Hero","Force Lightning","Force Siphon"],
+		"attackSound": "elechit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Emperor Palpatine",
+				"imageSize": 256 }]
+	},
+   //Level 1
+   //Civilians are meant to cost around x2-x3 of era base trooper, and settlers x2 of civilians
+    {
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 32,
+		"uniques": ["Level 1","Founds a new city", "Requires at least [2] population","Only available <during the [Level 1]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Settler",
+				"imageSize": 256 }]
+	},
+    {
+		"name": "Worker",
+		"unitType": "Civilian",
+		"cost": 16,
+		"obsoleteTech" : "Power Cores",
+		"uniques": ["Level 1","Can construct [Shelter]","Can construct [Extractor]", "Can construct [Trade Point]","Only available <during the [Level 1]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Scout Recruit",
+		"unitType": "Recon",
+		"cost": 5,
+		"movement": 2,
+		"strength": 10,
+		"upgradesTo": "Scout Trooper",
+		"obsoleteTech" : "Power Cores",
+		"attackSound": "blasterhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Scout Recruit",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Research Builder",
+		"unitType": "Civilian",
+		"cost": 16,
+		"requiredTech": "Research",
+		"obsoleteTech" : "Power Cores",
+		"uniques": ["Level 1","Can construct [Laboratory]","Can construct [Command Center]","Can construct [Factory] <after discovering [Factories]>","Can construct [Radar Dish] <after discovering [Scanning]>","Only available <during the [Level 1]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Research Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Expansion Builder",
+		"unitType": "Civilian",
+		"cost": 16,
+		"requiredTech": "Expansion",
+		"obsoleteTech" : "Power Cores",
+		"uniques": ["Level 1","Can construct [Power Core] <after discovering [Power Cores]>","Can construct [Outpost] <after discovering [Outposts]>","Can construct [Shield Generator] <after discovering [Energy Shields]>","Only available <during the [Level 1]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Expansion Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Military Builder",
+		"unitType": "Civilian",
+		"cost": 16,
+		"requiredTech": "Military",
+		"obsoleteTech" : "Power Cores",
+		"uniques": ["Level 1","Can construct [Military Base]","Can construct [Mech Complex] <after discovering [Mechs]>","Can construct [War Center] <after discovering [Tacticians]>","Can construct [Spaceport] <after discovering [Spaceports]>","Only available <during the [Level 1]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Military Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Trooper Recruit",
+		"unitType": "Battler",
+		"movement": 2,
+		"strength": 15,
+		"cost": 8,
+		"upgradesTo": "Trooper",
+		"requiredResource": "Carbon",
+		"obsoleteTech": "Battle Training",
+		"requiredTech": "Military",
+		"uniques": ["Level 1"]
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Trooper Recruit",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Ranged Recruit",
+		"unitType": "Ranged Battler",
+		"movement": 2,
+		"range": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 9,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Ranged Trooper",
+		"obsoleteTech": "Battle Training",
+		"requiredTech": "Ranged Trooper",
+		"uniques": ["Level 1"]
+		"attackSound": "blasterhit",
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Ranged Recruit",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Mounted Recruit",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 8,
+		"cost": 9,
+		"requiredResource": "Carbon",
+		"requiredTech": "Mounted Trooper",
+		"upgradesTo": "Mounted Trooper",
+		"obsoleteTech": "Battle Training",
+		"uniques": ["Level 1","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"attackSound": "fscut"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mounted Recruit",
+				"imageSize": 256 }]
+	},
+	//Level 2
+	{
+		"name": "Settler (Level 2)",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 40,
+		"uniques": ["Level 2","Founds a new city", "Requires at least [2] population","Only available <during the [Level 2]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Settler",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Droid",
+		"unitType": "Civilian",
+		"requiredTech": "Roads"
+		"cost": 20,
+		"uniques": ["Level 2","All tiles cost 1 movement","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"]
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Droid",
+				"imageSize": 256 }]
+		
+	},
+    {
+		"name": "Worker (Level 2)",
+		"unitType": "Civilian",
+		"cost": 20,
+		"uniques": ["Level 2","Can construct [Shelter]","Can construct [Extractor]","Can construct [Trade Point]","Only available <during the [Level 2]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Research Builder (Level 2)",
+		"unitType": "Civilian",
+		"cost": 20,
+		"uniques": ["Level 1","Can construct [Laboratory]","Can construct [Command Center]","Can construct [Factory] <after discovering [Factories]>","Can construct [Radar Dish] <after discovering [Scanning]>","Only available <during the [Level 2]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Research Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Expansion Builder (Level 2)",
+		"unitType": "Civilian",
+		"cost": 20,
+		"uniques": ["Level 2","Can construct [Power Core] <after discovering [Power Cores]>","Can construct [Outpost] <after discovering [Outposts]>","Can construct [Shield Generator] <after discovering [Energy Shields]>","Only available <during the [Level 2]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Expansion Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Military Builder (Level 2)",
+		"unitType": "Civilian",
+		"cost": 20,
+		"uniques": ["Level 2","Can construct [Military Base]","Can construct [Mech Complex] <after discovering [Mechs]>","Can construct [War Center] <after discovering [Tacticians]>","Can construct [Spaceport] <after discovering [Spaceports]>","Only available <during the [Level 2]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Military Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Scout Trooper",
+		"unitType": "Recon",
+		"cost": 7,
+		"movement": 2,
+		"strength": 14,
+		"requiredTech" : "Power Cores",
+		"uniques": ["Level 2"]
+		"attackSound": "blasterhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Scout Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Padawan",
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 30,
+		"cost": 38,
+		"requiredResource": "Nova",
+		"requiredTech": "Outposts",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Temples",
+		"uniques": ["Level 2","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Padawan",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Trooper",
+		"unitType": "Battler",
+		"movement": 2,
+		"strength": 17,
+		"cost": 10,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Battle Trooper",
+		"requiredTech": "Battle Training",
+		"obsoleteTech": "Advanced Military",
+		"uniques": ["Level 2"]
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Heavy Trooper",
+		"unitType": "Battler",
+		"movement": 1,
+		"strength": 22,
+		"cost": 16,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Shock Trooper",
+		"requiredTech": "Battle Training",
+		"obsoleteTech": "Advanced Military",
+		"uniques": ["Level 2","[+75]% Strength <vs [Armor] units> <when attacking>"]
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Heavy Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Ranged Trooper",
+		"unitType": "Ranged Battler",
+		"movement": 2,
+		"range": 2,
+		"strength": 12,
+		"rangedStrength": 14,
+		"cost": 12,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Heavy Ranged",
+		"requiredTech": "Battle Training",
+		"obsoleteTech": "Advanced Military",
+		"uniques": ["Level 2"]
+		"attackSound": "blasterhit",
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Ranged Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Mounted Trooper",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 12,
+		"cost": 12,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Heavy Mounted",
+		"requiredTech": "Battle Training",
+		"obsoleteTech": "Advanced Military",
+		"uniques": ["Level 2","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"attackSound": "fscut"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mounted Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Assault Tank",
+		"unitType": "Mech",
+		"movement": 3,
+		"strength": 40,
+		"cost": 30,
+		"requiredResource": "Battery",
+		"requiredTech": "Mechs",
+		"upgradesTo": "Heavy Mech",
+		"obsoleteTech": "Heavy Assault",
+		"uniques": ["Level 2","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"attackSound": "heavyfire"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Assault Tank",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 2,
+		"strength": 18,
+		"rangedStrength": 25,
+		"cost": 24,
+		"requiredResource": "Battery",
+		"requiredTech": "Mechs",
+		"upgradesTo": "Pummel",
+		"obsoleteTech": "Advanced Military",
+		"uniques": ["Level 2","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"attackSound": "heavyfire"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Artillery",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Strategist",
+		"unitType": "Tactician",
+		"movement": 2,
+		"cost": 24,
+		"requiredTech": "Tacticians",
+		"uniques": ["Level 2","[-25]% Strength for enemy [Military] units in adjacent [All] tiles","Uncapturable"]
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Strategist",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Medic",
+		"unitType": "Tactician",
+		"movement": 2,
+		"cost": 24,
+		"requiredTech": "Tacticians",
+		"uniques": ["Level 2","All adjacent units heal [+10] HP when healing","Uncapturable"]
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Medic",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Infiltrator",
+		"unitType": "Tactician",
+		"movement": 2,
+		"cost": 24,
+		"requiredTech": "Tacticians",
+		"uniques": ["Level 2","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"]
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Infiltrator",
+				"imageSize": 256 }]
+	},
+	//Level 3
+	{
+		"name": "Settler (Level 3)",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 60,
+		"uniques": ["Level 1","Founds a new city", "Requires at least [2] population","Only available <during the [Level 3]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Settler",
+				"imageSize": 256 }]
+	},
+    {
+		"name": "Worker (Level 3)",
+		"unitType": "Civilian",
+		"cost": 30,
+		"uniques": ["Level 1","Can construct [Shelter]", "Can construct [Extractor]", "Can construct [Trade Point]","Only available <during the [Level 3]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Research Builder (Level 3)",
+		"unitType": "Civilian",
+		"cost": 30,
+		"uniques": ["Level 3","Can construct [Laboratory]","Can construct [Command Center]","Can construct [Factory] <after discovering [Factories]>","Can construct [Radar Dish] <after discovering [Scanning]>","Only available <during the [Level 3]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Research Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Expansion Builder (Level 3)",
+		"unitType": "Civilian",
+		"cost": 30,
+		"uniques": ["Level 3","Can construct [Power Core] <after discovering [Power Cores]>","Can construct [Outpost] <after discovering [Outposts]>","Can construct [Shield Generator] <after discovering [Energy Shields]>","Only available <during the [Level 3]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Expansion Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Military Builder (Level 3)",
+		"unitType": "Civilian",
+		"cost": 30,
+		"uniques": ["Level 3","Can construct [Military Base]","Can construct [Mech Complex] <after discovering [Mechs]>","Can construct [War Center] <after discovering [Tacticians]>","Can construct [Spaceport] <after discovering [Spaceports]>","Only available <during the [Level 3]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Military Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Knight",
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 40,
+		"cost": 57,
+		"requiredResource": "Nova",
+		"requiredTech": "Temples",
+		"obsoleteTech": "The Force",
+		"uniques": ["Level 3","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Knight",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Battle Trooper",
+		"unitType": "Battler",
+		"movement": 2,
+		"strength": 22,
+		"cost": 15,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Advanced Trooper",
+		"requiredTech": "Advanced Military",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 3"]
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Battle Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Shock Trooper",
+		"unitType": "Battler",
+		"movement": 2,
+		"strength": 26,
+		"cost": 22,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Rocket Trooper",
+		"requiredTech": "Advanced Military",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 3"]
+		"attackSound": "rocket"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Shock Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Heavy Ranged",
+		"unitType": "Ranged Battler",
+		"movement": 2,
+		"strength": 18,
+		"rangedStrength": 22,
+		"cost": 16,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Repeater Trooper",
+		"requiredTech": "Advanced Military",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 3","[+75]% Strength <vs [Armor] units> <when attacking>"]
+		"attackSound": "blasterhit",
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Heavy Ranged",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Heavy Mounted",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 16,
+		"cost": 16,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Advanced Mounted",
+		"requiredTech": "Advanced Military",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 3","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"attackSound": "fscut"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Heavy Mounted",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Pummel",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 28,
+		"rangedStrength": 34,
+		"cost": 36,
+		"requiredResource": "Battery",
+		"requiredTech": "Advanced Military",
+		"upgradesTo": "Mobile Cannon",
+		"obsoleteTech": "Military Fleet",
+		"uniques": ["Level 3","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"attackSound": "heavyfire"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pummel",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Heavy Mech",
+		"unitType": "Mech",
+		"movement": 3,
+		"strength": 52,
+		"cost": 45,
+		"requiredResource": "Battery",
+		"requiredTech": "Heavy Assault",
+		"upgradesTo": "Advanced Mech",
+		"obsoleteTech": "Military Fleet",
+		"uniques": ["Level 3","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"attackSound": "heavyfire"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Heavy Mech",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Anti-Air",
+		"unitType": "Mech",
+		"movement": 2,
+		"strength": 30,
+		"interceptRange": 2,
+		"cost": 35,	
+		"requiredResource": "Battery",
+		"requiredTech": "Heavy Assault",
+		"upgradesTo": "Advanced Anti-Air",
+		"obsoleteTech": "Military Fleet",
+		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Air] units>","[+50]% Strength <vs [Bomber] units>"],
+		"attackSound": "turrethit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Anti-Air",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Mech Destroyer",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 2,
+		"strength": 24,
+		"rangedStrength": 24,
+		"cost": 47,
+		"requiredResource": "Battery",
+		"requiredTech": "Heavy Assault",
+		"upgradesTo": "Advanced Destroyer",
+		"obsoleteTech": "Military Fleet",
+		"uniques": ["Level 3","[+200]% Strength <vs [Armor] units>"],
+		"attackSound": "heavyfire"	
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mech Destroyer",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 8,
+		"interceptRange": 4,
+		"cost": 52,
+		"requiredResource": "Engine",
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Fighter",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Fighter",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 6,
+		"cost": 52,
+		"requiredResource": "Engine",
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Bomber",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[+33]% Strength <when attacking>","[+50]% Strength <vs [Armor] units>","[+50]% Strength <vs cities>"],
+		"attackSound": "laserhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Bomber",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Interceptor",
+		"unitType": "Interceptor",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 5,
+		"interceptRange": 6,
+		"cost": 52,
+		"requiredResource": "Engine",
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Interceptor",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Interceptor",
+				"imageSize": 256 }]
+	},
+	//Level 4
+	{
+		"name": "Settler (Level 4)",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 84,
+		"uniques": ["Level 4","Founds a new city", "Requires at least [2] population", "Only available <starting from the [Level 4]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Settler",
+				"imageSize": 256 }]
+	},
+    {
+		"name": "Worker (Level 4)",
+		"unitType": "Civilian",
+		"cost": 42,	
+		"uniques": ["Level 4","Can construct [Shelter]", "Can construct [Extractor]", "Can construct [Trade Point]","Only available <starting from the [Level 4]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Research Builder (Level 4)",
+		"unitType": "Civilian",
+		"cost": 42,
+		"uniques": ["Level 4","Can construct [Laboratory]","Can construct [Command Center]","Can construct [Factory] <after discovering [Factories]>","Can construct [Radar Dish] <after discovering [Scanning]>","Only available <starting from the [Level 4]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Research Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Expansion Builder (Level 4)",
+		"unitType": "Civilian",
+		"cost": 42,
+		"uniques": ["Level 4","Can construct [Power Core] <after discovering [Power Cores]>","Can construct [Outpost] <after discovering [Outposts]>","Can construct [Shield Generator] <after discovering [Energy Shields]>","Only available <during the [Level 4]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Expansion Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Military Builder (Level 4)",
+		"unitType": "Civilian",
+		"cost": 42,
+		"uniques": ["Level 4","Can construct [Military Base]","Can construct [Mech Complex] <after discovering [Mechs]>","Can construct [War Center] <after discovering [Tacticians]>","Can construct [Spaceport] <after discovering [Spaceports]>","Only available <during the [Level 4]>"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Military Builder",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Master",
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 52,
+		"interceptRange": 2,
+		"cost": 80,
+		"requiredResource": "Nova",
+		"requiredTech": "The Force",
+		"uniques": ["Level 4","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Master",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Advanced Trooper",
+		"unitType": "Battler",
+		"movement": 2,
+		"strength": 28,
+		"cost": 21,
+		"requiredResource": "Carbon",
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4"]
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Advanced Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Rocket Trooper",
+		"unitType": "Battler",
+		"movement": 2,
+		"strength": 35,
+		"cost": 30,
+		"requiredResource": "Carbon",
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4"]
+		"attackSound": "rocket",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Rocket Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Repeater Trooper",
+		"unitType": "Ranged Battler",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 29,
+		"cost": 24,
+		"requiredResource": "Carbon",
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4"]
+		"attackSound": "blasterhit",
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Repeater Trooper",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Advanced Mounted",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 23,
+		"cost": 24,
+		"requiredResource": "Carbon",
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"attackSound": "fscut"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Advanced Mounted",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Mobile Cannon",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 34,
+		"rangedStrength": 43,
+		"cost": 50,
+		"requiredResource": "Battery",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","Must set up to ranged attack","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"attackSound": "heavyfire"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mobile Cannon",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Advanced Mech",
+		"unitType": "Mech",
+		"movement": 3,
+		"strength": 68,
+		"cost": 63,
+		"requiredResource": "Battery",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"attackSound": "heavyfire"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Advanced Mech",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Advanced Anti-Air",
+		"unitType": "Mech",
+		"movement": 3,
+		"strength": 38,
+		"interceptRange": 3,
+		"cost": 48,
+		"requiredResource": "Battery",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Air] units>","[+50]% Strength <vs [Bomber] units>"],
+		"attackSound": "turrethit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Advanced Anti-Air",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Advanced Destroyer",
+		"unitType": "Mech",
+		"movement": 2,
+		"range": 2,
+		"strength": 30,
+		"rangedStrength": 30
+		"cost": 65,
+		"requiredResource": "Battery",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[+200]% Strength <vs [Armor] units>"],
+		"attackSound": "heavyfire"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Advanced Destroyer",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Advanced Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 9,
+		"interceptRange": 5,
+		"cost": 73,
+		"requiredResource": "Engine",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Advanced Fighter",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Advanced Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 7,
+		"interceptRange": 1,
+		"cost": 73,
+		"requiredResource": "Engine",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 4","[+33]% Strength <when attacking>","[+50]% Strength <vs [Armor] units>","[+50]% Strength <vs cities>"],
+		"attackSound": "laserhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Advanced Bomber",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Advanced Interceptor",
+		"unitType": "Interceptor",
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 6,
+		"interceptRange": 8,
+		"cost": 73,
+		"requiredResource": "Engine",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Advanced Interceptor",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Star Fleet",
+		"unitType": "Starship",
+		"movement": 2,
+		"range": 2,
+		"strength": 100,
+		"rangedStrength": 50,
+		"cost": 190,
+		"requiredResource": "Reactor",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[+100]% Strength <vs [Orbital Strike] units>","Can carry [2] [Air] units","Can carry Orbital Strike"],
+		"attackSound": "fleethit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Star Fleet",
+				"imageSize": 512 }]
+	},
+	{
+		"name": "Orbital Strike",
+		"unitType": "Orbital Strike",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 5,
+		"cost": 200,
+		"requiredResource": "Reactor",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 4","Nuclear weapon of Strength [1]", "Blast radius [2]","Self-destructs when attacking"],
+		"attackSound": "nuke"
+	},
+	//Civ Exlusive
+	{
+		"name": "Snowspeeder",
+		"unitType": "Bomber",
+		"uniqueTo": "Rebel Alliance"
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 3,
+		"cost": 40,
+		"requiredTech": "Advanced Military",
+		"upgradesTo": "Advanced Bomber",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 2","[+33]% Strength <when attacking>","[+100]% Strength <vs [Armor] units>"],
+		"attackSound": "laserhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Snowspeeder",
+				"imageSize": 256 }
+			{"text": "Unique Rebel Alliance Bomber that can be deployed much earlier, costs no Engines, and is more effective against Armor units."}
+		]
+	},
+	{
+		"name": "Rebel Soldier",
+		"unitType": "Battler",
+		"replaces": "Trooper"
+		"uniqueTo": "Rebel Alliance"
+		"movement": 2,
+		"strength": 17,
+		"cost": 10,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Battle Trooper",
+		"requiredTech": "Battle Training",
+		"obsoleteTech": "Advanced Military",
+		"uniques": ["Level 2"]
+		"attackSound": "blasterhit",
+		"promotions": ["Rebel Spirit"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Rebel Soldier",
+				"imageSize": 256 }
+			{"text": "The Rebel Alliance Trooper is much more effective at defending against Mechs, this upgrade carries over to upgraded Troopers."}
+		]
+	},
+	{
+		"name": "Exiled Jedi",
+		"unitType": "Jedi",
+		"replaces": "Knight",
+		"uniqueTo": "Rebel Alliance"
+		"movement": 2,
+		"strength": 40,
+		"cost": 50,
+		"requiredTech": "Temples",
+		"obsoleteTech": "The Force",
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Rebel Soldier",
+				"imageSize": 256 }
+			{"text": "The Rebel Alliance Knight costs less to produce, and requires no Nova."}
+		]
+	},
+	{
+		"name": "X-Wing",
+		"unitType": "Fighter",
+		"replaces": "Fighter"
+		"uniqueTo": "Rebel Alliance"
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 9,
+		"interceptRange": 5,
+		"cost": 52,
+		"requiredResource": "Engine",
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Fighter",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/X-Wing",
+				"imageSize": 256 }
+			{"text": "The Rebel Alliance Fighter is just as strong as a normal Advanced Figther."}
+		]
+	},
+	{
+		"name": "Advanced X-Wing",
+		"unitType": "Fighter",
+		"replaces": "Advanced Fighter"
+		"uniqueTo": "Rebel Alliance"
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 9,
+		"interceptRange": 5,
+		"cost": 73,
+		"requiredResource": "Engine",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit",
+		"promotions": ["Air Repair"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Advanced X-Wing",
+				"imageSize": 256 }
+			{"text": "The Rebel Alliance Advanced Fighter can heal each turn even if it attacks."}
+		]
+	},
+	{
+		"name": "Y-Wing",
+		"unitType": "Interceptor",
+		"replaces": "Interceptor",
+		"uniqueTo": "Rebel Alliance"
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 6,
+		"interceptRange": 8,
+		"cost": 52,
+		"requiredResource": "Engine",
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Interceptor",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Y-Wing",
+				"imageSize": 256 }
+			{"text": "The Rebel Alliance Interceptor is just as strong as a normal Advanced Interceptor."}
+		]
+	},
+	{
+		"name": "Advanced Y-Wing",
+		"unitType": "Interceptor",
+		"replaces": "Advanced Interceptor",
+		"uniqueTo": "Rebel Alliance"
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 6,
+		"interceptRange": 8,
+		"cost": 73,
+		"requiredResource": "Engine",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit",
+		"promotions": ["Air Repair"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Advanced Y-Wing",
+				"imageSize": 256 }
+			{"text": "The Rebel Alliance Advanced Interceptor can heal each turn even if it attacks."}
+		]
+	},
+	{
+		"name": "Probe Droid",
+		"unitType": "Recon",
+		"uniqueTo": "Galactic Empire"
+		"cost": 10,
+		"movement": 2,
+		"range": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"uniques": ["Level 1","[+1] Sight","All tiles cost 1 movement"]
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Probe Droid",
+				"imageSize": 256 }
+			{"text": "Unique Galactic Empire Recon unit that can perform ranged attacks, has extra vision, and ignores costs for movement."}
+		]
+	},
+	{
+		"name": "Stormtrooper",
+		"unitType": "Battler",
+		"replaces": "Trooper Recruit",
+		"uniqueTo": "Galactic Empire"
+		"movement": 2,
+		"strength": 15,
+		"cost": 8,
+		"upgradesTo": "Trooper",
+		"requiredResource": "Carbon",
+		"obsoleteTech": "Battle Training",
+		"requiredTech": "Military",
+		"uniques": ["Level 1"]
+		"attackSound": "blasterhit",
+		"promotions": ["Stormtrooper Armor"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Stormtrooper",
+				"imageSize": 256 }
+			{"text": "The Galactic Empire Trooper Recruit is just as effective as a Trooper in battle. This upgrade carries over to Troopers."}
+		]
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Jedi",
+		"replaces": "Knight",
+		"uniqueTo": "Galactic Empire"
+		"movement": 2,
+		"strength": 40,
+		"cost": 57,
+		"requiredResource": "Nova"
+		"requiredTech": "Temples",
+		"obsoleteTech": "The Force",
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+35]% Strength <vs [Jedi] units>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Inquisitor",
+				"imageSize": 256 }
+			{"text": "The Galactic Empire Knight is more effective against Jedi Units."}
+		]
+	},
+	{
+		"name": "AT-ST",
+		"unitType": "Mech",
+		"replaces": "Heavy Mech"
+		"uniqueTo": "Galactic Empire"
+		"movement": 2,
+		"strength": 52,
+		"cost": 45,
+		"requiredResource": "Battery",
+		"requiredTech": "Heavy Assault",
+		"uniques": ["Level 3","[+50]% Strength <vs [Infantry] units> <when attacking>"],
+		"attackSound": "heavyfire",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/AT-ST",
+				"imageSize": 256 }
+			{"text": "The Galactic Empire Heavy Mech deals even more damage to Infantry units, but has less movement than normal. They do not upgrade nor go obsolete."}
+		]
+	},
+	{
+		"name": "AT-AT",
+		"unitType": "Mech",
+		"replaces": "Advanced Mech",
+		"uniqueTo": "Galactic Empire"
+		"movement": 2,
+		"strength": 85,
+		"interceptRange": 2,
+		"cost": 125,
+		"requiredResource": "Battery",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[50]% chance to intercept air attacks","[+50]% Strength <vs [Siege] units> <when defending>"],
+		"attackSound": "heavyfire",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/AT-AT",
+				"imageSize": 256 }
+			{"text": "The Galactic Empire Advanced Mech is much stronger, can intercept Air attacks, and is very resistant to Siege units. However it costs double to produce and moves slower."}
+		]
+	},
+	{
+		"name": "TIE Fighter",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Galactic Empire"
+		"movement": 1,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 6,
+		"interceptRange": 4,
+		"cost": 42,
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Fighter",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/TIE Fighter",
+				"imageSize": 256 }
+			{"text": "The Galactic Empire Fighter costs no Engines ans is cheaper to produce. However it has lower range and is weaker than normal. This change does not carry over to Upgrades."}
+		]
+	},
+	{
+		"name": "TIE Bomber",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "Galactic Empire"
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 4,
+		"cost": 42,
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Bomber",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[+33]% Strength <when attacking>","[+50]% Strength <vs [Armor] units>","[+50]% Strength <vs cities>"],
+		"attackSound": "laserhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/TIE Bomber",
+				"imageSize": 256 }
+			{"text": "The Galactic Empire Bomber costs no Engines ans is cheaper to produce. However it has lower range and is weaker than normal. This change does not carry over to Upgrades."}
+		]
+	},
+	{
+		"name": "Bounty Hunter",
+		"unitType": "Battler",
+		"uniqueTo": "Smugglers"
+		"movement": 2,
+		"strength": 45,
+		"cost": 80,
+		"requiredTech": "Fortress",
+		"uniques": ["Level 4","[+100]% Strength <vs [Jedi] units>","Earn [50]% of killed [Military] unit's [Cost] as [Gold]","Uncapturable"]
+		"attackSound": "blasterhit",
+		"promotions": ["Jetpack"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Bounty Hunter",
+				"imageSize": 256 }
+			{"text": "Unique Smuggler Unit that is incredibly effective against Jedi, cannot be captured, and grants gold when it defeats an Enemy."}
+		]
+	},
+	{
+		"name": "Grenadier",
+		"unitType": "Battler",
+		"replaces": "Shock Trooper",
+		"uniqueTo": "Smugglers"
+		"movement": 2,
+		"strength": 26,
+		"cost": 22,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Rocket Trooper",
+		"requiredTech": "Advanced Military",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 3"]
+		"attackSound": "rocket",
+		"promotions": ["Thermal Detonator"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Grenadier",
+				"imageSize": 256 }
+			{"text": "The Smuggler Shock Trooper is more effective at defending against Armor units. This upgrade carries over to Rocker Troopers."}
+		]
+	},
+	{
+		"name": "IG-Trooper",
+		"unitType": "Ranged Battler",
+		"replaces": "Repeater Trooper",
+		"uniqueTo": "Smugglers"
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 29,
+		"cost": 24,
+		"requiredResource": "Carbon",
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4","[+50]% Strength <vs [Armor] units> <when attacking>"]
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/IG-Trooper",
+				"imageSize": 256 }
+			{"text": "The Smuggler Repeater Trooper is much more effective at attacking against Armor units."}
+		]
+	},
+	{
+		"name": "Speeder Gang",
+		"unitType": "Mounted",
+		"replaces": "Advanced Mounted",
+		"uniqueTo": "Smugglers"
+		"movement": 3,
+		"strength": 23,
+		"cost": 24,
+		"requiredResource": "Carbon",
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4","[+50]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"attackSound": "fscut",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Speeder Gang",
+				"imageSize": 256 }
+			{"text": "The Smuggler Advanced Mounted is much more effective at facing Infantry units."}
+		]
+	},
+	{
+		"name": "Smuggling Droid",
+		"unitType": "Ranged Battler",
+		"requiredTech": "Roads",
+		"replaces": "Droid",
+		"uniqueTo": "Smugglers",
+		"movement": 2,
+		"range": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 20,
+		"uniques": ["Level 2","All tiles cost 1 movement","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Smuggling Droid",
+				"imageSize": 256 }
+			{"text": "The Smuggler Droid is armed and capable of battle."}
+		]
+	},
+	{
+		"name": "Contrabandist",
+		"unitType": "Ranged Battler",
+		"replaces": "Infiltrator",
+		"uniqueTo": "Smugglers",
+		"movement": 2,
+		"range": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 24,
+		"requiredTech": "Tacticians",
+		"uniques": ["Level 2","[+50]% Strength <during the [Level 4]>","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Contrabandist",
+				"imageSize": 256 }
+			{"text": "The Smuggler Infiltrator is armed and capable of battle. It also becomes stronger upon reaching Level 4."}
+		]
+	},
+	{
+		"name": "Field Supplier",
+		"unitType": "Ranged Battler",
+		"replaces": "Medic",
+		"uniqueTo": "Smugglers"
+		"movement": 2,
+		"range": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 24,
+		"requiredTech": "Tacticians",
+		"uniques": ["Level 2","[+50]% Strength <during the [Level 4]>","All adjacent units heal [+10] HP when healing","Uncapturable"],
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Field Supplier",
+				"imageSize": 256 }
+			{"text": "The Smuggler Medic is armed and capable of battle. It also becomes stronger upon reaching Level 4."}
+		]
+	},
+	{
+		"name": "Republic Commando",
+		"unitType": "Battler",
+		"uniqueTo": "Galactic Republic"
+		"movement": 2,
+		"strength": 45,
+		"cost": 80,
+		"requiredTech": "Fortress",
+		"uniques": ["Level 4","[+25]% Strength <vs [Battler] units>","[+100]% Strength <vs cities>","Uncapturable"]
+		"attackSound": "blasterhit"
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Field Supplier",
+				"imageSize": 256 }
+			{"text": "Unique Galactic Republic Unit that is very effective against other battler units, cannot be captured, and receives a combat bonus when taking over cities."}
+		]
+	},
+	{
+		"name": "Clone Recruit",
+		"unitType": "Battler",
+		"replaces": "Trooper Recruit",
+		"uniqueTo": "Galactic Republic",
+		"movement": 2,
+		"strength": 15,
+		"cost": 8,
+		"upgradesTo": "Trooper",
+		"requiredResource": "Carbon",
+		"obsoleteTech": "Battle Training",
+		"requiredTech": "Military",
+		"uniques": ["Level 1"]
+		"attackSound": "blasterhit",
+		"promotions": ["Kaminoan Training"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Clone Recruit",
+				"imageSize": 256 }
+			{"text": "The Galactic Republic Trooper Recruit earns experience doubly as fast. This upgrade carries over to Troopers."}
+		]
+	},
+	{
+		"name": "Ranged Clone",
+		"unitType": "Ranged Battler",
+		"replaces": "Ranged Recruit",
+		"uniqueTo": "Galactic Republic"
+		"movement": 2,
+		"range": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 9,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Ranged Trooper",
+		"obsoleteTech": "Battle Training",
+		"requiredTech": "Ranged Trooper",
+		"uniques": ["Level 1"]
+		"attackSound": "blasterhit",
+		"promotions": ["Kaminoan Training"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Ranged Clone",
+				"imageSize": 256 }
+			{"text": "The Galactic Republic Ranged Recruit earns experience doubly as fast. This upgrade carries over to Ranged Troopers."}
+		]
+	},
+    {
+		"name": "Jedi Commander",
+		"unitType": "Jedi",
+		"replaces": "Knight",
+		"uniqueTo": "Galactic Republic",
+		"movement": 2,
+		"strength": 40,
+		"cost": 57,
+		"requiredTech": "Temples",
+		"obsoleteTech": "The Force",
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Jedi Commander",
+				"imageSize": 256 }
+			{"text": "The Galactic Republic Knight requires no Nova, and is stronger against Battler units."}
+		]
+	},
+    {
+		"name": "Jedi Fighter",
+		"unitType": "Fighter",
+		"replaces": "Advanced Fighter",
+		"uniqueTo": "Galactic Republic"
+		"movement": 1,
+		"strength": 42,
+		"rangedStrength": 42,
+		"range": 10,
+		"interceptRange": 6,
+		"cost": 73,
+		"requiredResource": "Engine",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>","Consumes [1] [Nova]"],
+		"attackSound": "laserhit",
+		"promotions": ["Evasion"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Jedi Fighter",
+				"imageSize": 256 }
+			{"text": "The Galactic Republic Advanced Fighter takes less damage from interceptions, and is overall stronger. However it also consumes Nova."}
+		]
+	},
+	{
+		"name": "ARC-170",
+		"unitType": "Interceptor",
+		"replaces": "Advanced Interceptor",
+		"uniqueTo": "Galactic Republic"
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 8,
+		"interceptRange": 9,
+		"cost": 73,
+		"requiredResource": "Engine",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit",
+		"promotions": ["Kaminoan Training"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/ARC-170",
+				"imageSize": 256 }
+			{"text": "The Galactic Republic Advanced Interceptor has a much bigger range, and earns experience doubly as fast."}
+		]
+	},
+	{
+		"name": "AT-TE",
+		"unitType": "Mech",
+		"replaces": "Advanced Mech",
+		"uniqueTo": "Galactic Republic",
+		"movement": 3,
+		"strength": 68,
+		"interceptRange": 2,
+		"cost": 63,
+		"requiredResource": "Battery",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"attackSound": "heavyfire",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/AT-TE",
+				"imageSize": 256 }
+			{"text": "The Galactic Republic Advanced Mech is capable of intercepting Air attacks 	on a small range."}
+		]
+		
+	},
+	{
+		"name": "Droideka",
+		"unitType": "Battler",
+		"uniqueTo": "Separatists"
+		"movement": 2,
+		"range": 2,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 80,
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4","Must set up to ranged attack","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <when defending>"]
+		"attackSound": "blasterhit"
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Droideka",
+				"imageSize": 256 }
+			{"text": "Unique Separatists Unit that takes much less damage when attacked, and is incredibly effective against infantry. But must set up to attack."}
+		]
+	},
+	{
+		"name": "Techmaster",
+		"unitType": "Tactician",
+		"replaces": "Medic",
+		"uniqueTo": "Separatists"
+		"movement": 2,
+		"cost": 24,
+		"requiredTech": "Tacticians",
+		"uniques": ["Level 2","All adjacent units heal [+20] HP when healing","Uncapturable"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Techmaster",
+				"imageSize": 256 }
+			{"text": "The Separatists Medic doubles their normal increased healing."}
+		]
+	},
+	{
+		"name": "Magnaguard",
+		"unitType": "Jedi",
+		"replaces": "Knight",
+		"uniqueTo": "Separatists",
+		"movement": 2,
+		"strength": 40,
+		"cost": 57,
+		"requiredTech": "Temples",
+		"uniques": ["Level 3","[+40]% Strength <vs [Battler] units>","[+50]% Strength <vs [Jedi] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Electrostaff"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Magnaguard",
+				"imageSize": 256 }
+			{"text": "The Separatists Knight cannot convert units or build Force Temples. It costs no Nova, and gains a Combat Bonus against Jedi."}
+		]
+	},
+	{
+		"name": "B2-Super Droid",
+		"unitType": "Battler",
+		"replaces": "Rocket Trooper",
+		"uniqueTo": "Separatists",
+		"movement": 2,
+		"strength": 35,
+		"cost": 30,
+		"requiredResource": "Carbon",	
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4","[+30]% Strength <vs [Infantry] units> <when defending>"]
+		"attackSound": "rocket",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/B2-Super Droid",
+				"imageSize": 256 }
+			{"text": "The Separatists Rocket Trooper takes less damage from Infantry attacks."}
+		]
+	},
+	{
+		"name": "AAT",
+		"unitType": "Mech",
+		"replaces": "Heavy Mech",
+		"uniqueTo": "Separatists"
+		"movement": 3,
+		"strength": 52,
+		"cost": 45,
+		"requiredResource": "Battery",
+		"requiredTech": "Heavy Assault",
+		"uniques": ["Level 3","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"attackSound": "heavyfire",
+		"promotions": ["Light Armor"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/AAT",
+				"imageSize": 256 }
+			{"text": "The Separatists Heavy Mech has additional movement range. They do not upgrade."}
+		]
+	},
+	{
+		"name": "Spider Tank",
+		"unitType": "Mech",
+		"replaces": "Advanced Mech",
+		"uniqueTo": "Separatists"
+		"movement": 3,
+		"strength": 68,
+		"cost": 63,
+		"requiredResource": "Battery",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[+10]% Strength <vs [Infantry] units> <when attacking>","Ignores terrain cost"],
+		"attackSound": "heavyfire",
+		"promotions": ["Tactical Movement"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/AAT",
+				"imageSize": 256 }
+			{"text": "The Separatists Advanced Mech ignores movement cost, as well as Zone of Control."}
+		]
+	},
+	{
+		"name": "Vulture Droid",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "Separatists"
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 8,
+		"interceptRange": 4,
+		"cost": 52,
+		"requiredResource": "Engine",
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Fighter",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit",
+		"promotions": ["Evasion"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Vulture Droid",
+				"imageSize": 256 }
+			{"text": "The Separatists Fighter Mech takes less damage from interceptions. This upgrade carries over to Advanced Fighters."}
+		]
+	},
+	{
+		"name": "Temple Guard",
+		"unitType": "Jedi",
+		"uniqueTo": "The Jedi Order"
+		"movement": 2,
+		"strength": 50,
+		"interceptRange": 2,
+		"cost": 80,
+		"requiredResource": "Nova",
+		"requiredTech": "Fortress",
+		"uniques": ["Level 4","[+25]% Strength <vs [Armor] units>","[+25]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Armor] units>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Temple Guard",
+				"imageSize": 256 }
+			{"text": "Unique Jedi Order unit that does not convert defeated enemies nor constructs Force Temples, but is much more effective at combat against Infantry, Jedi and Armor."}
+		]
+	},
+	{
+		"name": "Security Guard",
+		"unitType": "Battler",
+		"replaces": "Trooper Recruit",
+		"uniqueTo": "The Jedi Order",
+		"movement": 2,
+		"strength": 15,
+		"cost": 8,
+		"upgradesTo": "Trooper",
+		"requiredResource": "Carbon",
+		"obsoleteTech": "Battle Training",
+		"requiredTech": "Military",
+		"uniques": ["Level 1"]
+		"attackSound": "blasterhit",
+		"promotions": ["Order Guardian"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Security Guard",
+				"imageSize": 256 }
+			{"text": "The Jedi Order Trooper Recruit provides Faith when it defeats an enemy. This upgrade carries over to Troopers."}
+		]
+	},
+	{
+		"name": "Ranged Guard",
+		"unitType": "Ranged Battler",
+		"replaces": "Ranged Recruit",
+		"uniqueTo": "The Jedi Order"
+		"movement": 2,
+		"range": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 9,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Ranged Trooper",
+		"obsoleteTech": "Battle Training",
+		"requiredTech": "Ranged Trooper",
+		"uniques": ["Level 1"]
+		"attackSound": "blasterhit",
+		"promotions": ["Order Guardian"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Ranged Guard",
+				"imageSize": 256 }
+			{"text": "The Jedi Order Ranged Recruit provides Faith when it defeats an Enemy. This upgrade carries over to Ranged Troopers."}
+		]
+	},
+	{
+		"name": "Order Knight",
+		"unitType": "Jedi",
+		"replaces": "Knight",
+		"uniqueTo": "The Jedi Order"
+		"movement": 2,
+		"strength": 40,
+		"cost": 48,
+		"requiredResource": "Nova",
+		"requiredTech": "Temples",
+		"obsoleteTech": "The Force",
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"],
+		"promotions": ["Lightsaber","Force Perception"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Order Knight",
+				"imageSize": 256 }
+			{"text": "The Jedi Order Master is much cheaper to produce, and can see invisible units."}
+		]
+	},
+	{
+		"name": "Security Elite",
+		"unitType": "Battler",
+		"replaces": "Advanced Trooper",
+		"uniqueTo": "The Jedi Order",
+		"movement": 2,
+		"strength": 28,
+		"cost": 21,
+		"requiredResource": "Carbon",
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4","[+25]% Strength <vs [Battler] units>"]
+		"attackSound": "blasterhit",
+		"promotions": ["Order Guardian"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Advanced Trooper",
+				"imageSize": 256 }
+			{"text": "The Jedi Order Advanced Trooper provides Faith when it defeats an Enemy, and is stronger at facing Battlers."}
+		]
+	},
+	{
+		"name": "Council Master",
+		"unitType": "Jedi",
+		"replaces": "Master",
+		"uniqueTo": "The Jedi Order"
+		"movement": 2,
+		"strength": 52,
+		"interceptRange": 2,
+		"cost": 64,
+		"requiredResource": "Nova",
+		"requiredTech": "The Force",
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber","Force Cloak","Force Perception"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Council Master",
+				"imageSize": 256 }
+			{"text": "The Jedi Order Master is much cheaper to produce, can see invisible units, and is invisible to non-adjacent enemy units."}
+		]
+	},
+	{
+		"name": "ETA Starfighter",
+		"unitType": "Interceptor",
+		"replaces": "Advanced Interceptor",
+		"uniqueTo": "The Jedi Order"
+		"movement": 1,
+		"strength": 38,
+		"rangedStrength": 38,
+		"range": 8,
+		"interceptRange": 9,
+		"cost": 73,
+		"requiredResource": "Engine",
+		"requiredTech": "Orbital Strikes",
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+100]% Strength <vs [Air] units>","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>","Consumes [1] [Nova]"],
+		"attackSound": "laserhit",
+		"promotions": ["Force Concentration"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/ETA Starfighter",
+				"imageSize": 256 }
+			{"text": "The Jedi Order Advanced Interceptor has a much bigger range, retains the Fighters advantages, and heals Faster. It also consumes Nova"}
+		]
+	},
+		{
+		"name": "Ski Speeder",
+		"unitType": "Bomber",
+		"uniqueTo": "Resistance",
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 22,
+		"range": 3,
+		"cost": 40,
+		"requiredTech": "Advanced Military",
+		"upgradesTo": "Advanced Bomber",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 2","[+33]% Strength <when attacking>","[+150]% Strength <vs [Mech] units> <when attacking>"],
+		"attackSound": "laserhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Ski Speeder",
+				"imageSize": 256 }
+			{"text": "Unique Resistance Bomber that can be deployed much earlier, costs no Engines, and is much more effective at attacking Mech units."}
+		]
+	},
+	{
+		"name": "Guerrilla Recruit",
+		"unitType": "Ranged Battler",
+		"replaces": "Ranged Recruit",
+		"uniqueTo": "Resistance",
+		"movement": 2,
+		"range": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 9,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Ranged Trooper",
+		"obsoleteTech": "Battle Training",
+		"requiredTech": "Ranged Trooper",
+		"uniques": ["Level 1"],
+		"promotions": ["Energy Shield"]
+		"attackSound": "blasterhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Guerilla Recruit",
+				"imageSize": 256 }
+			{"text": "The Resistance Ranged Recruit comes equipped with a persona Energy Shield. This Upgrade carries over to Ranged Troopers."}
+		]
+	},
+	{
+		"name": "Assault Liner",
+		"unitType": "Siege",
+		"replaces": "Artillery",
+		"uniqueTo": "Resistance"
+		"movement": 2,
+		"range": 2,
+		"strength": 18,
+		"rangedStrength": 25,
+		"cost": 24,
+		"requiredResource": "Battery",
+		"requiredTech": "Mechs",
+		"upgradesTo": "Pummel",
+		"obsoleteTech": "Advanced Military",
+		"uniques": ["Level 2","[-1] Sight","[+50]% Strength <vs [Armor] units> <when attacking>"],
+		"attackSound": "heavyfire",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Assault Liner",
+				"imageSize": 256 }
+			{"text": "The Resistance Artillery needs no setup to perform Ranged attacks."}
+		]
+	},
+	{
+		"name": "Patrol Speeder",
+		"unitType": "Mounted",
+		"replaces": "Heavy Mounted",
+		"uniqueTo": "Resistance"
+		"movement": 3,
+		"strength": 16,
+		"cost": 16,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Advanced Mounted",
+		"requiredTech": "Advanced Military",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 3","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
+		"attackSound": "fscut",
+		"promotions": ["Fusion Cutter I"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Patrol Speeder",
+				"imageSize": 256 }
+			{"text": "The Resistance Patrol Speeder is more effective at attacking cities and Armored units."}
+		]
+	},
+	{
+		"name": "Bunkerbuster",
+		"unitType": "Siege",
+		"replaces": "Mech Destroyer",
+		"uniqueTo": "Resistance"
+		"movement": 2,
+		"range": 2,
+		"strength": 24,
+		"rangedStrength": 24,
+		"cost": 47,
+		"requiredResource": "Battery",
+		"requiredTech": "Heavy Assault",
+		"upgradesTo": "Advanced Destroyer",
+		"obsoleteTech": "Military Fleet",
+		"uniques": ["Level 3","[+100]% Strength <vs [Armor] units>"],
+		"attackSound": "heavyfire",
+		"promotions": ["Bunkerbuster"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Bunkerbuster",
+				"imageSize": 256 }
+			{"text": "The Resistance Mech Destroyer is less effective against Armors, but much more effective at defending against Infantry and attacking cities. This Upgrade carries over to Advanced Destroyers."}
+		]
+	},
+	{
+		"name": "Vanguard",
+		"unitType": "Battler",
+		"replaces": "Battle Trooper",
+		"uniqueTo": "Resistance"
+		"movement": 2,
+		"strength": 22,
+		"cost": 15,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Advanced Trooper",
+		"requiredTech": "Advanced Military",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 3"]
+		"attackSound": "blasterhit",
+		"promotions": ["Vanguard"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Vanguard",
+				"imageSize": 256 }
+			{"text": "The Resistance Battle Trooper is more effective at defending. This Upgrade carries over to Advanced Troopers."}
+		]
+	},
+	{
+		"name": "Mobile Turret",
+		"unitType": "Mech",
+		"replaces": "Anti-Air",
+		"uniqueTo": "Resistance"
+		"movement": 2,
+		"strength": 30,
+		"interceptRange": 2,
+		"cost": 35,
+		"requiredResource": "Battery",
+		"requiredTech": "Heavy Assault",
+		"upgradesTo": "Advanced Anti-Air",
+		"obsoleteTech": "Military Fleet",
+		"uniques": ["Level 3","[100]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+100]% Strength <vs [Air] units>","[+50]% Strength <vs [Bomber] units>"],
+		"attackSound": "turrethit",
+		"promotions": ["Reinforced Plating"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Vanguard",
+				"imageSize": 256 }
+			{"text": "The Resistance Anti-Air is more effective at defending. This Upgrade carries over to Advanced Anti-Air."}
+		]
+	},
+	{
+		"name": "Jet Trooper",
+		"unitType": "Battler",
+		"uniqueTo": "First Order"
+		"movement": 3,
+		"strength": 28,
+		"cost": 35,
+		"requiredTech": "Fortress",
+		"uniques": ["Level 4","All tiles cost 1 movement","[+25]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Armor] units>"]
+		"attackSound": "blasterhit"
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Jet Trooper",
+				"imageSize": 256 }
+			{"text": "Unique First Order Unit that is capable of moving through all terrains, and is effective at facing Infantry and Armor units."}
+		]
+	},
+	{
+		"name": "Flametrooper",
+		"unitType": "Battler",
+		"replaces": "Shock Trooper",
+		"uniqueTo": "First Order"
+		"movement": 2,
+		"strength": 26,
+		"cost": 22,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Rocket Trooper",
+		"requiredTech": "Advanced Military",
+		"obsoleteTech": "Repeaters",
+		"uniques": ["Level 3"]
+		"attackSound": "rocket",
+		"promotions": ["Incendiary"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Flametrooper",
+				"imageSize": 256 }
+			{"text": "The First Order Shock Trooper deals more damage to other Infantry units. This Upgrade carries over to Rocket Trooper."}
+		]
+	},
+	{
+		"name": "FO Stormtrooper",
+		"unitType": "Battler",
+		"replaces": "Trooper"
+		"uniqueTo": "First Order"
+		"movement": 2,
+		"strength": 17,
+		"cost": 10,
+		"requiredResource": "Carbon",
+		"upgradesTo": "Battle Trooper",
+		"requiredTech": "Battle Training",
+		"obsoleteTech": "Advanced Military",
+		"uniques": ["Level 2"]
+		"attackSound": "blasterhit",
+		"promotions": ["Indoctrination"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/FO Stormtrooper",
+				"imageSize": 256 }
+			{"text": "The First Order Trooper can move after attacking. This upgrade carries over to Battle Troopers."}
+		]
+	},
+	{
+		"name": "Knight of Ren",
+		"unitType": "Jedi",
+		"replaces": "Knight",
+		"uniqueTo": "First Order"
+		"movement": 2,
+		"strength": 40,
+		"cost": 57,
+		"requiredResource": "Nova"
+		"requiredTech": "Temples",
+		"obsoleteTech": "The Force",
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+35]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Scarred"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Knight of Ren",
+				"imageSize": 256 }
+			{"text": "The First Order Knight is more effective against Infantry Units."}
+		]
+	},
+	{
+		"name": "FO TIE Fighter",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"uniqueTo": "First Order"
+		"movement": 1,
+		"strength": 26,
+		"rangedStrength": 26,
+		"range": 7,
+		"interceptRange": 5,
+		"cost": 50,
+		"requiredTech": "Spaceports",
+		"upgradesTo": "Advanced Fighter",
+		"obsoleteTech": "Orbital Strikes",
+		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
+		"attackSound": "laserhit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/FO TIE Fighter",
+				"imageSize": 256 }
+			{"text": "The First Order Fighter costs no Engines and is slightly cheaper to produce. However it is is weaker than normal. This change does not carry over to Upgrades."}
+		]
+	},
+	{
+		"name": "AT-M6",
+		"unitType": "Mech",
+		"replaces": "Advanced Mech",
+		"uniqueTo": "First Order"
+		"movement": 2,
+		"strength": 85,
+		"interceptRange": 2,
+		"cost": 125,
+		"requiredResource": "Battery",
+		"requiredTech": "Military Fleet",
+		"uniques": ["Level 4","[75]% chance to intercept air attacks","[+25]% Strength <vs [Armor] units>"],
+		"attackSound": "heavyfire",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/AT-M6",
+				"imageSize": 256 }
+			{"text": "The First Order Advanced Mech is much stronger, can intercept Air attacks, and gains a bonus against Armor units. However it costs double to produce and moves slower."}
+		]
+	},
+	{
+		"name": "Commander",
+		"unitType": "Tactician",
+		"replaces": "Strategist",
+		"uniqueTo": "First Order"
+		"movement": 2,
+		"cost": 24,
+		"requiredTech": "Tacticians",
+		"uniques": ["Level 2","[-50]% Strength for enemy [Military] units in adjacent [All] tiles","Uncapturable"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Commander",
+				"imageSize": 256 }
+			{"text": "The First Order Strategist is doubly as efficient"}
+		]
+	},
+	{
+		"name": "Sith Seeker",
+		"unitType": "Jedi",
+		"uniqueTo": "Sith Eternal"
+		"movement": 2,
+		"strength": 50,
+		"interceptRange": 2,
+		"cost": 80,
+		"requiredResource": "Nova",
+		"requiredTech": "Fortress",
+		"uniques": ["Level 4","[100]% chance to intercept air attacks","[+25]% Strength <vs [Infantry] units>","[+75]% Strength <vs [Air] units>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Sith Seeker",
+				"imageSize": 256 }
+			{"text": "Unique Sith Eternal unit that does not convert defeated enemies nor constructs Force Temples, but is capable of intercepting Air attacks with high efficiency."}
+		]
+	},
+	{
+		"name": "Cultist",
+		"unitType": "Recon",
+		"replaces": "Scout Recruit",
+		"uniqueTo": "Sith Eternal",
+		"cost": 5,
+		"movement": 2,
+		"strength": 10,
+		"upgradesTo": "Scout Trooper",
+		"obsoleteTech" : "Power Cores",
+		"attackSound": "blasterhit"
+		"promotions": ["Passion"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Cultist",
+				"imageSize": 256 }
+			{"text": "The Sith Eternal Scout Recruit generates Faith when it defeats an enemy. This Upgrade carries over to Scout Troopers."}
+		]
+	},
+	{
+		"name": "Cult Squadron",
+		"unitType": "Mech",
+		"replaces": "Heavy Mech",
+		"uniqueTo": "Sith Eternal"
+		"movement": 3,
+		"strength": 52,
+		"cost": 45,
+		"requiredResource": "Battery",
+		"requiredTech": "Heavy Assault",
+		"upgradesTo": "Advanced Mech",
+		"obsoleteTech": "Military Fleet",
+		"uniques": ["Level 3","[+10]% Strength <vs [Infantry] units> <when attacking>"],
+		"attackSound": "heavyfire",
+		"promotions": ["Passion"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Cult Squadron",
+				"imageSize": 256 }
+			{"text": "The Sith Eternal Heavy Mech generates Faith when it defeats an Enemy. This Upgrade carries over to Advanced Mech."}
+		]
+	},
+	{
+		"name": "Sith Assassin",
+		"unitType": "Jedi",
+		"replaces": "Knight",
+		"uniqueTo": "First Order"
+		"movement": 2,
+		"strength": 40,
+		"cost": 57,
+		"requiredResource": "Nova"
+		"requiredTech": "Temples",
+		"obsoleteTech": "The Force",
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Lightsaber","Force Cloak"],
+		"attackSound": "lshit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Sith Assasin",
+				"imageSize": 256 }
+			{"text": "The Sith Eternal Knight is invisible to non-adjacent units"}
+		]
+	},
+	{
+		"name": "Sith Trooper",
+		"unitType": "Battler",
+		"replaces": "Advanced Trooper",
+		"uniqueTo": "Sith Eternal",
+		"movement": 2,
+		"strength": 28,
+		"cost": 21,
+		"requiredResource": "Carbon",
+		"requiredTech": "Repeaters",
+		"uniques": ["Level 4"]
+		"attackSound": "blasterhit",
+		"promotions": ["Force Drain"]
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Sith Trooper",
+				"imageSize": 256 }
+			{"text": "The Sith Trooper Advanced Trooper heals himself when defeating an Enemy."}
+		]
+	},
+	{
+		"name": "Sith Master",
+		"unitType": "Jedi",
+		"replaces": "Master",
+		"uniqueTo": "Sith Eternal"
+		"movement": 2,
+		"range": 2,
+		"strength": 46,
+		"rangedStrength": 54,
+		"interceptRange": 2,
+		"cost": 80,
+		"requiredResource": "Nova",
+		"requiredTech": "The Force",
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"promotions": ["Force Lightning","Force Cloak","Force Perception"],
+		"attackSound": "elechit",
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Sith Master",
+				"imageSize": 256 }
+			{"text": "The Sith Eternal Master is can perform ranged attacks, see invisible units, and is invisible to non-adjacent enemy units."}
+		]
+	},
+	{
+		"name": "Double Agent",
+		"unitType": "Tactician",
+		"replaces": "Infiltrator",
+		"uniqueTo": "Sith Eternal"
+		"movement": 4,
+		"cost": 24,
+		"requiredTech": "Tacticians",
+		"uniques": ["Level 2","Invisible to non-adjacent units","Can see invisible [Infiltrator] units","May enter foreign tiles without open borders","Uncapturable"],
+		"civilopediaText": [
+		{"extraImage": "TileSets/FantasyHex/Units/Double Agent",
+				"imageSize": 256 }
+			{"text": "The Sith Eternal Infiltrator has a very increased movement range."}
+		]
+	},
+	//Mechanics Exclusive
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Level 2","May found a religion","May enhance a religion", 
+			"Unbuildable","Hidden when religion is disabled", 
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Great Prophet",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Force Ghost",
+		"unitType": "Jedi",
+		"movement": 2,
+		"strength": 52,
+		"interceptRange": 2,
+		"cost": 160,
+		"requiredResource": "Nova",
+		"requiredTech": "The Force",
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Force Ore] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Unbuildable", "Religious Unit","Hidden when religion is disabled"]
+		"promotions": ["Force Ghost"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Force Ghost",
+				"imageSize": 256 }]
+	},
+	{
+	 "name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": ["Level 1","Can [Spread Religion] [1] times", "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", "[-1] Sight", "Unbuildable", "Hidden when religion is disabled"],
+		"movement": 4,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Missionary",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Inventor", //Not really used during gameplay, just a Stand-In for for Civ-Exclusive Inventors
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can Construct a Wonder based on the Civilization","Unbuildable","Hidden","Will not be displayed in Civilopedia"],
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["Level 2","Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Great Person - [War]", "Unbuildable", "Uncapturable","Will not be displayed in Civilopedia"],
+		"movement": 2
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Settler",
+				"imageSize": 256 }]
+	},
+	{
+		"name": "Hero", //Not really used during gameplay, just a Stand-In for for Civ-Exclusive Heroes
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Unbuildable","Great Person","Will not be displayed in Civilopedia"],
+	}
+]

@@ -1,0 +1,140 @@
+[
+    // General
+	{
+		"name": "Shelter",
+		"food": 2,
+		"uniques": ["Great Improvement","[+1 Food] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "Extractor",
+		"food": 1,
+		"production": 1,
+		"uniques": ["Great Improvement","[+1 Production] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "Trade Point",
+		"food": 1,
+		"gold": 2,
+		"uniques": ["Great Improvement","[+2 Gold] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	// Research
+	{
+		"name": "Laboratory",
+		"science": 1,
+		"uniques": ["Great Improvement","[+1 Science] for each adjacent [Mountain]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "Command Center",
+		"culture": 1,
+		"uniques": ["Great Improvement","[+1 Culture] for each adjacent [Hill]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "Factory",
+		"production": 1,
+		"uniques": ["Great Improvement","[+1 Production] for each adjacent [Extractor]","[+1 Production] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "Radar Dish",
+		"culture": 2,
+		"happiness": 1,
+		"uniques": ["Great Improvement","[+1 Culture] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	// Expansion
+	{
+		"name": "Power Core",
+		"food": -1,
+		"gold": -1,
+		"culture": -1,
+		"production": -1,
+		"faith": -1,
+		"science": -1
+		"uniques": ["Great Improvement", "Provides [3] [Energy]"]
+	},
+	{
+		"name": "Force Temple",
+		"faith": 1,
+		"uniques": ["Great Improvement","[+1 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Jungle]","[+1 Faith] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "Outpost",
+		"happiness": 1,	
+		"uniques": ["Great Improvement","[+1 Happiness] for each adjacent [Forest]"]
+	},
+	{
+		"name": "Shield Generator",
+		"happiness": 1,
+		"uniques": ["Great Improvement"]
+	},
+	// Military
+	{
+		"name": "Military Base",
+		"production": 1,
+		"uniques": ["Great Improvement","Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [25] damage","[+1 Production] for each adjacent [Mech Complex]","[+1 Production] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "Mech Complex",
+		"production": 1,
+		"uniques": ["Great Improvement","Gives a defensive bonus of [75]%","Adjacent enemy units ending their turn take [20] damage","[+1 Production] for each adjacent [Military Base]","[+1 Production] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "War Center",
+		"culture": 1,
+		"uniques": ["Great Improvement","Gives a defensive bonus of [50]%","Adjacent enemy units ending their turn take [15] damage","[+1 Culture] for each adjacent [Hill]","[+1 Culture] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	{
+		"name": "Spaceport",
+		"production": 1,
+		"uniques": ["Great Improvement","[+1 Production] for each adjacent [Coast]","[+1 Production] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+	},
+	// Transportation
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+		"techRequired": "Roads",
+		"uniques": ["Can be built outside your borders"],
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 4,
+		"techRequired": "Railroads",
+		"uniques": ["Can be built outside your borders"],
+	},
+	//Unique
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+	{ 
+		"name": "Ancient ruins", 
+		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
+	},
+	{ 
+		"name": "City ruins", 
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{ 
+		"name": "City center", 
+		"uniques": ["Unpillagable", "Indestructible"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"}]
+		"uniques": ["[+1 Food] for each adjacent [Great Improvement]"] //Bonus only Triggers once per type of Great Improvement
+	},
+	{ 
+		"name": "Barbarian encampment", 
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+	// Wonders
+]

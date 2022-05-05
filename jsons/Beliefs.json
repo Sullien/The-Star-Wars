@@ -1,0 +1,200 @@
+[
+    ///Pantheon
+    {
+        "name": "First Believers",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] [in capital]","[+1 Faith] [in all cities]"]
+    },
+	{
+        "name": "Sheltered Recruits",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Shelter]"]
+    },
+	{
+        "name": "Minerals of Faith",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Extractor]"]
+    },
+	{
+        "name": "Understanding Society",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Trade Point]"]
+    },
+	{
+        "name": "Force of Peace",
+        "type": "Pantheon",
+        "uniques": ["[+20]% [Faith] <when not at war>"]
+    },
+	{
+        "name": "Strength through Passion",
+        "type": "Pantheon",
+        "uniques": ["All [Jedi] units receive the [Passion] promotion"]
+    },
+	{
+        "name": "Studies of the Force",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from all [Science] buildings"]
+    },
+	{
+        "name": "Desert Trials",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from [Desert] tiles [in all cities]"]
+    },
+	{
+        "name": "Storm Trials",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from [Tundra] tiles [in all cities]"]
+    },
+	{
+        "name": "Underwater Meditation",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from [Coast] tiles [in all cities]"]
+    },
+	{
+        "name": "Resignated Talent",
+        "type": "Pantheon",
+        "uniques": ["[-3 Faith, +8 Gold] from every [Force Temple]"]
+    }
+	
+	///////////////////////////////////////// Founder beliefs /////////////////////////////////////////
+    {
+        "name": "First Practicioners",
+        "type": "Pantheon",
+        "uniques": ["[+2 Culture] from every [Force Temple]","[+2 Culture] from [Nova] tiles [in all cities]"]
+    },
+	{
+        "name": "Preservers of Knowledge",
+        "type": "Founder",
+        "uniques": ["[+2 Science] from all [Faith] buildings"]
+    },
+	{
+        "name": "Peacekeepers",
+        "type": "Founder",
+        "uniques": ["[+2 Happiness] for each global city following this religion"]
+    },
+	{
+        "name": "Power through Strength",
+        "type": "Founder",
+        "uniques": ["[+30]% Strength <for [Jedi] units> <vs [Jedi] units>"]
+    },
+	{
+        "name": "Involved Order",
+        "type": "Founder",
+        "uniques": ["[+1 Production] from all [Faith] buildings","[+2 Production] from every [Force Temple]"]
+    },
+	{
+        "name": "Counselors",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from all [Gold] buildings","[+1 Faith] from all [Culture] buildings"]
+    },
+	{
+        "name": "Shadow Guidance",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from all [Production] buildings","[+1 Faith] from all [Science] buildings",]
+    },
+	{
+        "name": "Lore Searchers",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from every [Command Center]","[+1 Faith] from every [Laboratory]","[+1 Faith] from every [Outpost]"]
+    },
+	{
+        "name": "Heroes Arise",
+        "type": "Founder",
+        "uniques": ["[Faith] cost of purchasing [Jedi] units [-30]%"]
+    },
+	
+		
+	///////////////////////////////////////// Follower beliefs //////////////////////////////////////////
+    {
+        "name": "Harmony",
+        "type": "Follower",
+        "uniques": ["[+1 Food, +1 Science, +1 Culture] [in this city]"]
+    },
+	{
+        "name": "Shelters of Peace",
+        "type": "Follower",
+        "uniques": ["[+1 Food] from all [Faith] buildings"]
+    },
+	{
+        "name": "Wonder Mineral",
+        "type": "Follower",
+        "uniques": ["[+1 Food, +1 Happiness] from all [Nova] tiles"]
+    },
+	{
+        "name": "Order Librarians",
+        "type": "Follower",
+        "uniques": ["[+4 Science] from every [Force Temple]"]
+    },
+	{
+        "name": "Temple Tourism",
+        "type": "Follower",
+        "uniques": ["[+8 Gold] from every [Force Temple]"]
+    },
+	{
+        "name": "Victory through Power",
+        "type": "Follower",
+        "uniques": ["[+4 Production] from every [Force Temple]"]
+    },
+	{
+        "name": "Order Rumors",
+        "type": "Follower",
+        "uniques": ["[+1 Culture] from every [Trade Point]"]
+    },
+	{
+        "name": "Secret Minerals",
+        "type": "Follower",
+        "uniques": ["[+1 Culture] from all [Carbon] tiles [in this city]","[+1 Culture] from all [Ore] tiles [in this city]"]
+    },
+	{
+        "name": "Order of Builders",
+        "type": "Follower",
+        "uniques": ["[+10]% Production when constructing [All] buildings [in this city]"]
+    },
+	{
+        "name": "Order of Action",
+        "type": "Follower",
+        "uniques": ["[+10]% Production when constructing [All] units [in this city]"]
+    },
+	{
+        "name": "Force Specialists",
+        "type": "Follower",
+        "uniques": ["[+4 Faith] from every specialist [in this city]"]
+    },
+	{
+        "name": "Diplomatic Guidance",
+        "type": "Follower",
+        "uniques": ["[+2 Gold] from all [Culture] buildings"]
+    },
+	///////////////////////////////////////// Enhancer beliefs //////////////////////////////////////////
+    {
+        "name": "No Death, only the Force",
+        "type": "Enhancer",
+        "uniques": ["May buy [Force Ghost] units for [400] [Faith] [in all cities in which the majority religion is a enhanced religion] at an increasing price ([150])"]
+    },
+	{
+        "name": "Freedom through Victory",
+        "type": "Enhancer",
+        "uniques": ["All [Jedi] units receive the [Force Drain] promotion"]
+    },
+	{
+        "name": "Force Jump",
+        "type": "Enhancer",
+        "uniques": ["All [Jedi] units receive the [Force Jump] promotion"]
+    },
+	{
+        "name": "First Strikes",
+        "type": "Enhancer",
+        "uniques": ["All [Jedi] units receive the [First Strike] promotion"]
+    },
+	{
+        "name": "Force Rage",
+        "type": "Enhancer",
+        "uniques": ["All [Jedi] units receive the [Force Rage] promotion"]
+    },
+	{
+        "name": "Force Barrier",
+        "type": "Enhancer",
+        "uniques": ["All [Jedi] units receive the [Force Barrier] promotion"]
+    }
+	
+]

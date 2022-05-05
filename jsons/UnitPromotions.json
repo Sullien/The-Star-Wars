@@ -1,0 +1,612 @@
+[
+    //Exclusives
+    {
+		"name": "Lightsaber",
+		"uniques": ["[+20]% Strength <vs [Armor] units>","[+30]% Strength <vs cities>"]
+	},
+	{
+		"name": "Electrostaff",
+		"uniques": ["[+20]% Strength <vs [Infantry] units>","[+30]% Strength <vs [Armor] units>"]
+	},
+	{
+		"name": "Energy Shield",
+		"uniques": ["[+25]% Strength <when defending>"]
+	},
+	{
+		"name": "Force Strength",
+		"uniques": ["May capture killed [Armor] units <with [75]% chance>"]
+	},
+	{
+		"name": "Bacta Tanks",
+		"uniques": ["[+30] HP when healing"]
+	},
+	{
+		"name": "Faith in the Force",
+		"uniques": ["Uncapturable"]
+	},
+	{
+		"name": "Force Influence",
+		"uniques": ["May capture killed [Jedi] units <with [75]% chance>"]
+	},
+	{
+		"name": "Force Drain",
+		"uniques": ["Heals [50] damage if it kills a unit"]
+	},
+	{
+		"name": "First Strike",
+		"uniques": ["[+25]% Strength <when attacking>"]
+	},
+	{
+		"name": "Force Jump",
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory"]
+	},
+	{
+		"name": "Force Rage",
+		"uniques": ["[+30]% Strength <vs [Wounded] units>"]
+	},
+	{
+		"name": "Force Barrier",
+		"uniques": ["[+25]% Strength <when defending>"]
+	},
+	{
+		"name": "Force Ghost",
+		"uniques": ["[+50]% Strength <when defending>","[-70]% Strength <when attacking>"]
+	},
+	{
+		"name": "Passion",
+		"uniques": ["Earn [20]% of killed [Military] unit's [Cost] as [Faith]"]
+	},
+	{
+		"name": "Jetpack",
+		"uniques": ["[+1] Movement","All tiles cost 1 movement"]
+	},
+	{
+		"name": "Hero",
+		"uniques": ["Heals [20] damage if it kills a unit","[+100]% XP gained from combat","Can move after attacking","Uncapturable"]
+	},
+	//Civ Exclusives
+	{
+		"name": "Rebel Spirit",
+		"uniques": ["[+50]% Strength <when defending> <vs [Armor] units>"]
+	},
+	{
+		"name": "Stormtrooper Armor",
+		"uniques": ["[+20]% Strength"]
+	},
+	{
+		"name": "Kaminoan Training",
+		"uniques": ["[+100]% XP gained from combat"]
+	},
+	{
+		"name": "Order Guardian",
+		"uniques": ["Earn [20]% of killed [Military] unit's [Strength] as [Faith]"]
+	},
+	{
+		"name": "Force Cloak",
+		"uniques": ["Invisible to non-adjacent units"]
+	},
+	{
+		"name": "Force Perception",
+		"uniques": ["Can see invisible [Wounded] units"]
+	},
+	{
+		"name": "Bunkerbuster",
+		"uniques": ["[+100]% Strength <vs [Infantry] units> <when defending>","[+50]% Strength <vs cities>"]
+	},
+	{
+		"name": "Vanguard",
+		"uniques": ["[+25]% Strength <when defending>"]
+	},
+	{
+		"name": "Incendiary",
+		"uniques": ["[+50]% Strength <vs [Infantry] units>"]
+	},
+	{
+		"name": "Indoctrination",
+		"uniques": ["Can move after attacking"]
+	},
+	{
+		"name": "Force Lightning",
+		"uniques": ["[+20]% Strength <vs [Jedi] units>","[+50]% Strength <vs [Armor] units>"]
+	},
+	{
+		"name": "Return of the Jedi",
+		"uniques": ["[+25]% Strength"]
+	},
+	{
+		"name": "Merciless",
+		"uniques": ["[+35]% Strength <when attacking>"]
+	},
+	{
+		"name": "Payday",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Cost] as [Gold]"]
+	},
+	{
+		"name": "Defensive Stance",
+		"uniques": ["[+35]% Strength <when defending>"]
+	},
+	{
+		"name": "Swordplay",
+		"uniques": ["[+40]% Strength <vs [Jedi] units>"]
+	},
+	{
+		"name": "Wisdom",
+		"uniques": ["[+100]% XP gained from combat"]
+	},
+	{
+		"name": "Force Healing",
+		"uniques": ["[+10] HP when healing","All adjacent units heal [+20] HP when healing"]
+	},
+	{
+		"name": "Scarred",
+		"uniques": ["[+35]% Strength <vs [Wounded] units>"]
+	},
+	{
+		"name": "Force Siphon",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]","Earn [25]% of killed [Military] unit's [Strength] as [Science]"]
+	},
+	//General
+	{
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Recon","Battler","Ranged Battler","Mounted","Tactician","Mech","Siege","Fighter","Bomber","Interceptor","Starship","Jedi"]
+	},
+	//Recon
+	{
+		"name": "Macrobinoculars",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Recon","Battler","Ranged Battler","Mounted","Mech","Siege"]
+	},
+	{
+		"name": "Scramble",
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Terrain Adapt",
+		"prerequisites": ["Macrobinoculars"]
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Setting Camp",
+		"prerequisites": ["Scramble"]
+		"uniques": ["[+15] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Undercover",
+		"prerequisites": ["Terrain Adapt"]
+		"uniques": ["May enter foreign tiles without open borders"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Ambush Squad",
+		"prerequisites": ["Setting Camp"]
+		"uniques": ["[+50]% Strength <when attacking>"],
+		"unitTypes": ["Recon"]
+	},
+	{
+		"name": "Elite Recon",
+		"prerequisites": ["Undercover","Ambush Squad"]
+		"uniques": ["May withdraw before melee ([50]%)"],
+		"unitTypes": ["Recon"]
+	},
+	//Battler
+	{
+		"name": "Frontlines",
+		"uniques": ["[+20]% Strength <vs [Melee] units>"],
+		"unitTypes": ["Battler","Mounted","Mech"]
+	},
+	{
+		"name": "Disruption",
+		"uniques": ["[+20]% Strength <vs [Ranged] units> <when attacking>"],
+		"unitTypes": ["Battler","Mounted"]
+	},
+	{
+		"name": "Thermal Detonator",
+		"prerequisites": ["Frontlines"]
+		"uniques": ["[+30]% Strength <vs [Armor] units> <when defending>"],
+		"unitTypes": ["Battler"]
+	},
+	{
+		"name": "Chokepoint",
+		"prerequisites": ["Disruption"]
+		"uniques": ["[+30]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Battler"]
+	},
+	{
+		"name": "Field Supplies",
+		"prerequisites": ["Thermal Detonator"]
+		"uniques": ["[+10] HP when healing"]
+		"unitTypes": ["Battler"]
+	},
+	{
+		"name": "Urban Specialist",
+		"prerequisites": ["Chokepoint"]
+		"uniques": ["[+50]% Strength <vs cities>"]
+		"unitTypes": ["Battler"]
+	},
+	{
+		"name": "Battler Logistics",
+		"prerequisites": ["Field Supplies","Urban Specialist"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Battler"]
+	},
+	{
+		"name": "Cover I",
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Recon","Battler","Mounted","Mech"]
+	},
+	{
+		"name": "Cover II",
+		"prerequisites": ["Cover I"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Recon","Battler","Mounted","Mech"]
+	},
+	//Ranged Battler
+	{
+		"name": "Strike I",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Ranged Battler","Siege"]
+	},
+	{
+		"name": "Retaliation",
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Ranged Battler","Siege"]
+	},
+	{
+		"name": "Strike II",
+		"prerequisites": ["Strike I"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Ranged Battler","Siege"]
+	},
+	{
+		"name": "Reinforced Blasters",
+		"prerequisites": ["Retaliation"]
+		"uniques": ["[+25]% Strength <vs [Armor] units> <when attacking>"],
+		"unitTypes": ["Ranged Battler","Siege"]
+	},
+	{
+		"name": "Strike III",
+		"prerequisites": ["Strike II"],
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Ranged Battler","Siege"]
+	},
+	{
+		"name": "Seeker Missiles",
+		"prerequisites": ["Reinforced Blasters"]
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Ranged Battler","Siege"]
+	},
+	{
+		"name": "Portable Scanners",
+		"prerequisites": ["Strike III","Reinforced Blasters"]
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Ranged Battler","Siege"]
+	},
+	{
+		"name": "Cleanup Crew",
+		"uniques": ["[+15]% Strength <vs [Wounded] units>"]
+		"unitTypes": ["Recon","Battler","Ranged Battler","Mounted","Mech","Siege","Fighter","Bomber","Interceptor"]
+	},
+	//Mounted
+	{
+		"name": "Fusion Cutter I",
+		"uniques": ["[+25]% Strength <vs [Armor] units> <when attacking>","[+50]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Open Combat",
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Fusion Cutter II",
+		"prerequisites": ["Fusion Cutter I"]
+		"uniques": ["[+25]% Strength <vs [Armor] units> <when attacking>","[+50]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Turbo Engine",
+		"prerequisites": ["Open Combat"]
+		"uniques": ["[+2] Movement"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Fusion Cutter III",
+		"prerequisites": ["Fusion Cutter II"]
+		"uniques": ["[+25]% Strength <vs [Armor] units> <when attacking>","[+50]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Rush Repairs",
+		"prerequisites": ["Turbo Engine"]
+		"uniques": ["[+10] HP when healing <in [Friendly Land] tiles>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "March",
+		"prerequisites": ["Fusion Cutter III","Rush Repairs"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Mounted"]
+	},
+	//Tactician	
+	{
+		"name": "Combat Analysis",
+		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"unitTypes": ["Tactician"]
+	},
+	{
+		"name": "Extended Movement",
+		"uniques": ["[+1] Movement","[+1] Sight"],
+		"unitTypes": ["Tactician"]
+	},
+	{
+		"name": "Field Medics",
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
+		"unitTypes": ["Tactician"]
+	},
+	//Mech
+	{
+		"name": "Light Armor",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mech","Siege"]
+	},
+	{
+		"name": "Reinforced Plating",
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Mech","Siege"]
+	},
+	{
+		"name": "Hostile Takeover",
+		"prerequisites": ["Light Armor"]
+		"uniques": ["[+10]% Strength <when attacking>","[+25]% Strength <vs cities>"],
+		"unitTypes": ["Mech"]
+	},
+	{
+		"name": "Air Defenses",
+		"prerequisites": ["Reinforced Plating"]
+		"uniques": ["[+25]% Strength <vs [Air] units>"],
+		"unitTypes": ["Mech"]
+	},
+	{
+		"name": "Field Repairs",
+		"prerequisites": ["Hostile Takeover"],
+		"uniques": ["[+15] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Mech"]
+	},
+	{
+		"name": "Open Warfare",
+		"prerequisites": ["Hostile Takeover"],
+		"uniques": ["[+1] Movement","[+20]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Mech"]
+	},
+    {
+		"name": "Blitz",
+		"prerequisites": ["Field Repairs","Open Warfare"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Mech"]
+	},
+	{
+		"name": "Raid Supplies",
+		"uniques": ["No movement cost to pillage"],
+		"unitTypes": ["Mech","Battler","Mounted"]
+	},
+	//Siege
+	{
+		"name": "Targeted Strikes",
+		"uniques": ["[+20]% Strength <vs [Infantry] units> <when attacking>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Crew Defenses",
+		"uniques": ["[+20]% Strength <vs [Infantry] units> <when defending>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Dispersion Strike",
+		"prerequisites": ["Targeted Strikes"]
+		"uniques": ["[+20]% Strength <vs [Infantry] units>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Armor Shells",
+		"prerequisites": ["Targeted Strikes"]
+		"uniques": ["[+20]% Strength <vs [Armor] units>","[+20]% Strength <vs cities>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Supply Guard",
+		"prerequisites": ["Dispersion Strike"]
+		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Deploy Flares",
+		"prerequisites": ["Dispersion Strike"]
+		"uniques": ["[+50]% Strength <vs [Air] units> <when defending>"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Expertise",
+		"prerequisites": ["Supply Guard","Deploy Flares"]
+		"uniques": ["Can move after attacking"],
+		"unitTypes": ["Siege"]
+	},
+	{
+		"name": "Supply Refill",
+		"prerequisites": ["Dispersion Strike"]
+		"uniques": ["[+10] HP when healing <in [Friendly Land] tiles>"],
+		"unitTypes": ["Ranged Battler","Mech","Siege"]
+	},
+	//Fighter
+	{
+		"name": "Air Combat I",
+		"uniques": ["[+40]% Damage when intercepting"],
+		"unitTypes": ["Fighter","Interceptor"]
+	},
+	{
+		"name": "Air Perimeter",
+		"uniques": ["[+3] Sight"],
+		"unitTypes": ["Fighter","Bomber","Interceptor"]
+	},
+	{
+		"name": "Air Combat II",
+		"prerequisites": ["Air Combat I"]
+		"uniques": ["[+40]% Damage when intercepting"],
+		"unitTypes": ["Fighter","Interceptor"]
+	},
+	{
+		"name": "Air Raids",
+		"prerequisites": ["Air Perimeter"]
+		"uniques": ["[+50]% Strength <vs [Infantry] units>"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Air Combat III",
+		"prerequisites": ["Air Combat II"]
+		"uniques": ["[+40]% Damage when intercepting"],
+		"unitTypes": ["Fighter","Interceptor"]
+	},
+	{
+		"name": "Air Repair",
+		"prerequisites": ["Air Raids"]
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Sortie",
+		"prerequisites": ["Air Combat III"]
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Fighter","Interceptor"]
+	},
+	{
+		"name": "Operational Range",
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Fighter","Bomber","Interceptor"]
+	},
+	//Bomber
+	{
+		"name": "Siege I",
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Heavy Bombs",
+		"prerequisites": ["Air Perimeter"]
+		"uniques": ["[+50]% Strength <vs [Armor] units>"],
+		"unitTypes": ["Bomber","Interceptor"]
+	},
+	{
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Supply Drop",
+		"prerequisites": ["Heavy Bombs"]
+		"uniques": ["Heals [20] damage if it kills a unit"],
+		"unitTypes": ["Bomber","Interceptor"]
+	},
+	{
+		"name": "Logic Strike",
+		"prerequisites": ["Siege II"],
+		"unitTypes": ["Bomber"]
+	},
+	{
+		"name": "Evasion",
+		"prerequisites": ["Supply Drop"],
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"unitTypes": ["Bomber","Interceptor"]
+	},
+	//Interceptor
+	{
+		"name": "Tactical Deployment",
+		"uniques": ["Can move after attacking"],
+		"unitTypes": ["Interceptor"]
+	},
+	//Starship
+	{
+		"name": "Hyperdrive I",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Starship"]
+	},
+	{
+		"name": "Hyperdrive II",
+		"prerequisites": ["Hyperdrive I"],
+		"uniques": ["[+1] Movement","[+1] Sight"],
+		"unitTypes": ["Starship"]
+	},
+	{
+		"name": "Turrets",
+		"prerequisites": ["Hyperdrive II"],
+		"uniques": ["[+15]% Strength <vs [Military] units>","[+20]% Strength <vs cities>"],
+		"unitTypes": ["Starship"]
+	},
+	{
+		"name": "Flight Deck I",
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Starship"]
+	},
+	{
+		"name": "Flight Deck II",
+		"prerequisites": ["Flight Deck I"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Starship"]
+	},
+	{
+		"name": "Air Defenses",
+		"prerequisites": ["Flight Deck II"],
+		"uniques": ["[+15]% Strength <vs [Air] units>"],
+		"unitTypes": ["Starship"]
+	},
+	{
+		"name": "Maintenance Crew",
+		"prerequisites": ["Hyperdrive II"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Starship"]
+	}
+	//Jedi
+	{
+		"name": "Force Stamina",
+		"prerequisites": ["Flight Deck II"],
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Jedi"]
+	},
+	{
+		"name": "Force Speed",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Jedi"]
+	},
+	{
+		"name": "Force Concentration",
+		"prerequisites": ["Force Stamina"],
+		"uniques": ["[+5] HP when healing","[+10] HP when healing <in [Friendly Land] tiles>"],
+		"unitTypes": ["Jedi"]
+	},
+	{
+		"name": "Mind Trick",
+		"prerequisites": ["Force Speed"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"unitTypes": ["Jedi"]
+	},
+	{
+		"name": "Force Grip",
+		"prerequisites": ["Force Concentration","Mind Trick"],
+		"uniques": ["[+20]% Strength <vs [Armor] units>","[+20]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Jedi"]
+	},
+	{
+		"name": "Lightsaber Deflect",
+		"prerequisites": ["Lightsaber"],
+		"uniques": ["[+40]% Strength <vs [Ranged Battler] units> <when defending>","[+20]% Strength <vs [Jedi] units> <when defending>"],
+		"unitTypes": ["Jedi"]
+	},
+	{
+		"name": "Tactical Movement",
+		"uniques": ["Ignores Zone of Control"],
+		"unitTypes": ["Recon","Battler","Ranged Battler","Mounted","Tactician","Mech","Siege","Jedi"]
+	}
+]

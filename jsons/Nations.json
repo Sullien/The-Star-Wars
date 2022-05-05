@@ -1,0 +1,276 @@
+[
+    //The Spectator
+ 	{
+		"name": "Spectator",
+		"outerColor": [0,0,0]
+		"innerColor": [250,250,250]
+	},
+	//
+	{
+		"name": "Rebel Alliance",
+		"leaderName": "Luke Skywalker",
+		"adjective": ["Rebel"],
+		"style": "Rebel",
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+		
+
+		"startIntroPart1": "We all have our missions, yet the force still finds a way to bind us together. I'l try to stay close, but for now, let's settle a base around here.",
+		"startIntroPart2": "Dangers lurk around every corner, so be careful. Good luck.",
+
+		"declaringWar": "You're leaving behind a trail of chaos and destruction, I have to stop you.",
+		"attacked": "Get ready! We're under attack!",
+		"defeated": "No way, and I was just getting started...",
+		"introduction": "Ever been out of a job? I can teach you moisture farming.",
+
+		"neutralHello": "Luke Skywalker, reporting in.",
+		"hateHello": "I can feel the conflict within you.",
+
+		"tradeRequest": "It seems the force has brought us together.",
+		
+		
+		"outerColor": [245,245,245],
+		"innerColor": [238,0,0],
+		"favoredReligion": "Ashla",
+		"uniqueName": "Return of the Jedi",
+		"uniques": ["[+1 Food] from every [Shelter]",
+		"[+1 Culture] from every [Bonus resource]"],
+		"cities": ["Spark Base","Urus Base","Gavin Post","Ahren Base","Damiran Base","Kold Base","Bentom Base","Kyllen Base","Krish Base","Alhan Base","Layne Base","Justan Base"]
+	},
+	{
+		"name": "Galactic Empire",
+		"leaderName": "Darth Vader",
+		"adjective": ["Imperial"],
+		"style": "Imperial",
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Scientific",
+		
+
+		"startIntroPart1": "It has come to my attention the fact that this land has valuable resources to the Empire. You are to investigate and obtain these resources.",
+		"startIntroPart2": "Do not fail me, Commander. If enemies of the Empire are found in this land, exterminate them.",
+
+		"declaringWar": "Your lack of foresight will be your demise.",
+		"attacked": "I will show you the power of the Dark Side.",
+		"defeated": "Noooooooo!",
+		"introduction": "I have altered the deal. Pray I do not alter it any further.",
+
+		"neutralHello": "...Speak",
+		"hateHello": "I am surprised you still live.",
+
+		"tradeRequest": "It would be unwise for you to enrage my master",
+
+		"outerColor": [245,245,245],
+		"innerColor": [10,10,10],
+		"favoredReligion": "The Mist",
+		"uniqueName": "Imperial March",
+		"uniques": ["[+1 Science] from every [Extractor]",
+		"[+1 Science] from every [Strategic resource]"],
+		"cities": ["Vos Complex","Dismon Complex","Damiron Complex","Alixer Complex","Daln Complex","Llona Complex","Malca Complex","Blackfall Complex","Tex Complex","Gaphol Complex","Thusaad Complex","Ekog Complex"]
+	},
+	{
+		"name": "Smugglers",
+		"leaderName": "Jabba the Hutt",
+		"adjective": ["Smuggler"],
+		"style": "Smuggler",
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "I hear you have found a most suitable place for me to do operations.",
+		"startIntroPart2": "Since you offered, you will be in charge of my trade routes here. I expect to hear good news soon... For your own good.",
+
+		"declaringWar": "It appears there are many who want you dead. And so you will be.",
+		"attacked": "No one double crosses Jabba and lives.",
+		"defeated": "Fool! At least with me the underworld was under control, but soon one worse than me shall rise",
+		"introduction": "Looking to spend a few Credits? I'l make it worth your while.",
+
+		"neutralHello": "Come to me with a deal?",
+		"hateHello": "You are hard to kill.",
+
+		"tradeRequest": "My latest batch of shipments has arrived.",
+
+		"outerColor": [115,105,0],
+		"innerColor": [255,255,255],
+		"favoredReligion": "The Wind",
+		"uniqueName": "Criminal Underworld",
+		"uniques": ["[+2 Gold] from every [Trade Point]","[+2 Gold] from every [Luxury resource]"],
+		"cities": ["Etrephim Camp","Koat Camp","Vey Camp","Musc Camp","Strem Camp","Matzen Camp","Blaike Camp","Aylan Camp","Bleak Camp","Craix Camp","Khal Camp","Datrull Camp"]
+	},
+	{
+		"name": "Galactic Republic",
+		"leaderName": "Padme Amidala",
+		"adjective": ["Republic"],
+		"style": "Republic",
+		"startBias": ["Lakes"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "We finally meet, Commander. If succesful, our operations here will greatly aid people in need across the Galaxy.",
+		"startIntroPart2": "I'l help where I can, but we must all do our part to ensure peace during these times.",
+
+		"declaringWar": "I considered every other option, but you must be stopped.",
+		"attacked": "This is regrettable. But we were prepared for it.",
+		"defeated": "This is how Democracy ends...",
+		"introduction": "I swear, these days a Senator sees more combat than a Soldier.",
+
+		"neutralHello": "We shall hold a hearing soon.",
+		"hateHello": "Had enough yet?",
+
+		"tradeRequest": "The Republic will finance this operation.",
+
+		"outerColor": [10,10,10],
+		"innerColor": [30,145,245],
+		"favoredReligion": "The Sight",
+		"uniqueName": "Always a Choice",
+		"uniques": ["[+1 Food] [in all cities]","[+20]% Strength <for [Infantry] units> <vs [Infantry] units>","[+40]% Production when constructing [Jedi] units [in all cities]"],
+		"cities": ["Silah District","Alryn District","Malk District","Thadd District","Adley District","Arol District","Ralth District","Malluk District","Rackham District","Prak District","Bentzen District","Kynon District"]
+	},
+	{
+		"name": "Separatists",
+		"leaderName": "Count Dooku",
+		"adjective": ["Separatist"],
+		"style": "Separatist",
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "There's still much to be done, and I'm afraid we don't have much time.",
+		"startIntroPart2": "This land is perfect for an outpost. I will oversee your progress, but we cannot fail.",
+
+		"declaringWar": "Your weapons, please. Don't want to make a mess in front of the Chancellor.",
+		"attacked": "I've been looking forward to this.",
+		"defeated": "Aghk!",
+		"introduction": "Twice the pride, Double the Fall",
+
+		"neutralHello": "You have something for me?",
+		"hateHello": "My patience is running out.",
+
+		"tradeRequest": "This will be most helpful.",
+
+		"outerColor": [48,20,00],
+		"innerColor": [225,155,0],
+		"favoredReligion": "The Tide",
+		"uniqueName": "Liberation Agenda",
+		"uniques": ["[+1 Happiness] [in all cities]","[+2] Unit Supply per [2] population [in all cities]","[Gold] cost of purchasing [Infantry] units [-30]%"],
+		"cities": ["Xerxes Complex","Seth Complex","Wolf Complex","Arol Complex","Mollen Complex","Sagan Complex","Jallan Complex","Edlo Complex","Cenl Complex","Tillon Complex","Jaddle Complex","Wynell Complex"]
+	},
+	{
+		"name": "The Jedi Order",
+		"leaderName": "Master Yoda",
+		"adjective": ["Jedi"],
+		"style": "Jedi",
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "For many years, order have we known. Order have we preserved. Defenders we are, but Peacekeepers, above all.",
+		"startIntroPart2": "Our legacy, this it. That, is your responsibility. From now on, carry it you must.",
+
+		"declaringWar": "A shame this is. To War we must go.",
+		"attacked": "Regrettable this is, Wars not make one great.",
+		"defeated": "Altough defeated, on the force we will live on.",
+		"introduction": "Judge me by my size, do you?",
+
+		"neutralHello": "May the force be with you.",
+		"hateHello": "To tipped Scales upsetting the balance leads",
+
+		"tradeRequest": "A trade, offer we have.",
+
+		
+		"outerColor": [240,225,225],
+		"innerColor": [120,40,10],
+		"favoredReligion": "The Force",
+		"uniqueName": "Wonders of the Force",
+		"uniques": ["Gain a free [Free Nova] [in capital]","[+1 Faith] [in all cities]","Starts with [Outposts]"],
+		"cities": ["Wardy Monastery","Carte Monastery","Arall Monastery","Rezal Monastery","Molos Monastery","Utwin Monastery","Alnol Monastery","D'Kroll Monastery","Celn Monastery","Hati Monastery","Gornall Monastery","Billa Monastery"]
+	},
+	{
+		"name": "Resistance",
+		"leaderName": "Rey",
+		"adjective": ["Resistance"],
+		"style": "Resistance",
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "For years, I thought I was nobody, from nowhere. With no purpose on this world. But I had great masters who taught me it doesn't matter where you come from.",
+		"startIntroPart2": "All that matters is that you stay, and you fight.",
+
+		"declaringWar": "I caught up.",
+		"attacked": "I think I can handle myself.",
+		"defeated": "Hmph... You got lucky.",
+		"introduction": "You offering me a job?",
+
+		"neutralHello": "Need any help?",
+		"hateHello": "You're a monster!",
+
+		"tradeRequest": "Want any of this?",
+
+		"outerColor": [245,245,245],
+		"innerColor": [255,70,0],
+		"favoredReligion": "The Presence",
+		"uniqueName": "Legacy of the Heirs",
+		"uniques": ["[+1 Culture] from every [Shelter]","[+30]% Production when constructing [Air] units [in all cities]","[+20]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"],
+		"cities": ["Velli Base","Allon Base","Garall Base","Ulwin Base","Rallnall Base","Dolles Base","Tales Base","Sheelo Base","Calcis Base","Qually Base","Dolles Base","Tlisha Base"]
+	},
+	{
+		"name": "First Order",
+		"leaderName": "Kylo Ren",
+		"adjective": ["First Order"],
+		"style": "FO",
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "Our enemies are here. And it's your task to eliminate them.",
+		"startIntroPart2": "One way or another. I'l make sure of it.",
+
+		"declaringWar": "I want every gun we have... To fire on them!.",
+		"attacked": "You are weak. I will show you!",
+		"defeated": "Grr! Aaaagh!",
+		"introduction": "That city. It belongs to me.",
+
+		"neutralHello": "What do you want?",
+		"hateHello": "Still want to do this?",
+
+		"tradeRequest": "When I offer you my hand again, you'l take it.",
+
+		"outerColor": [195,195,195],
+		"innerColor": [0,0,0],
+		"favoredReligion": "The Wind",
+		"uniqueName": "Ruthless Pursuit",
+		"uniques": ["[+2 Science] per [2] population [in all cities]","[+30]% Production when constructing [Armor] units [in all cities]","[+20]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>"],
+		"cities": ["Leppak Complex","Drajoil Complex","Vlio Complex","Arull Complex","Olosh Complex","Fummel Complex","Lackle Complex","Comlai Complex","Zrict Complex","Allesam Complex","Edrill Complex","Efillel Complex"]
+	},
+	{
+		"name": "Sith Eternal",
+		"leaderName": "Emperor Palpatine",
+		"adjective": ["Sith"],
+		"style": "Sith Eternal",
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "The time to banish the heretics has come! Nothing will stop the return of the Sith!",
+		"startIntroPart2": "As a noble follower, you shall carry our will. The Sith shall rise once more!.",
+
+		"declaringWar": "Nothing will stop the return of the Sith!",
+		"attacked": "I shall execute... the Final Order.",
+		"defeated": "Aaaaaaaaaaghh!",
+		"introduction": "I have been dead before. That won't stop me.",
+
+		"neutralHello": "Our time will soon come...",
+		"hateHello": "I have foreseen your destruction.",
+
+		"tradeRequest": "The darkside is a pathway to many abilities some might consider... Unnatural",
+
+		"outerColor": [6,6,6],
+		"innerColor": [250,0,0],
+		"favoredReligion": "The Beyond",
+		"uniqueName": "The Final Order",
+		"uniques": ["Gain a free [Free Nova] [in capital]","Gain a free [Sith Shrine] [in all cities]","[+1 Faith] from every specialist [in all cities]"],
+		"cities": ["Aclidraut Camp","Wechell Camp","Aklal Camp","Anell Camp","Xolox Camp","Vorall Camp","Sturm Camp","Bynall Camp","Eball Camp","Vallon Camp","Ifdrill Camp","Morill Camp"]
+	},
+	//City-States/Not Implemented
+	//
+	//Barbarians
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0],
+		"uniques": ["Can only heal by pillaging"]
+	}
+]

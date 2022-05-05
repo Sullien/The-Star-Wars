@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Recon",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Battler",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Ranged Battler",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Mounted",
+        "movementType": "Land",
+		"Uniques": ["Infantry"]
+    },
+	{
+        "name": "Jedi",
+        "movementType": "Land",
+		"Uniques": ["Force","Unable to capture cities"]
+    },
+	{
+        "name": "Siege",
+        "movementType": "Land",
+		"Uniques": ["Armor","Unable to capture cities"]
+    },
+	{
+        "name": "Tactician",
+        "movementType": "Land",
+		"Uniques": ["Infantry","Unable to capture cities"]
+    },
+    {
+        "name": "Mech",
+        "movementType": "Land",
+		"Uniques": ["Armor","Unable to capture cities"]
+    },
+	{
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+	{
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+	{
+        "name": "Interceptor",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+	{
+        "name": "Starship",
+        "movementType": "Land",
+        "uniques": ["Special","All tiles cost 1 movement","Can pass through impassable tiles","Unable to capture cities"]
+    },
+	{
+        "name": "Orbital Strike",
+        "movementType": "Air",
+        "uniques": ["Special","Self-destructs when attacking","Cannot be intercepted"]
+    },
+]
