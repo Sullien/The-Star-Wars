@@ -290,7 +290,7 @@
 		"upgradesTo": "Mounted Trooper",
 		"obsoleteTech": "Battle Training",
 		"uniques": ["Level 1","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
-		"attackSound": "fscut"
+		"attackSound": "elechit"
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Mounted Recruit",
@@ -462,7 +462,7 @@
 		"requiredTech": "Battle Training",
 		"obsoleteTech": "Advanced Military",
 		"uniques": ["Level 2","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
-		"attackSound": "fscut"
+		"attackSound": "elechit"
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Mounted Trooper",
@@ -677,7 +677,7 @@
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
 		"uniques": ["Level 3","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
-		"attackSound": "fscut"
+		"attackSound": "elechit"
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Heavy Mounted",
@@ -943,7 +943,7 @@
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
 		"uniques": ["Level 4","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
-		"attackSound": "fscut"
+		"attackSound": "elechit"
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Advanced Mounted",
@@ -1454,7 +1454,7 @@
 		"requiredResource": "Carbon",
 		"requiredTech": "Repeaters",
 		"uniques": ["Level 4","[+50]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
-		"attackSound": "fscut",
+		"attackSound": "elechit",
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Speeder Gang",
 				"imageSize": 256 }
@@ -2014,7 +2014,7 @@
 		"requiredTech": "Advanced Military",
 		"obsoleteTech": "Repeaters",
 		"uniques": ["Level 3","[+25]% Strength <vs [Ranged Battler] units>","[+25]% Strength <vs [Ranged Battler] units> <when attacking>"],
-		"attackSound": "fscut",
+		"attackSound": "elechit",
 		"promotions": ["Fusion Cutter I"]
 		"civilopediaText": [
 		{"extraImage": "TileSets/FantasyHex/Units/Patrol Speeder",
