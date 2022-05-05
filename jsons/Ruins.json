@@ -35,12 +35,6 @@
         "color": "#ffeb7f"
     },
     {
-        "name": "discover a lost technology",
-        "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Level 1]"],
-		"color": "#7f7fff"
-    },
-    {
         "name": "advanced weaponry for your explorer",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
         "uniques": ["This Unit upgrades for free including special upgrades"]
