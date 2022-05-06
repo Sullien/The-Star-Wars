@@ -53,51 +53,58 @@ BuildingIcons/Advanced Parts
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Advanced Shelters
+BuildingIcons/Advanced Outpost
   rotate: false
   xy: 1192, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Advanced Ships
-  rotate: false
-  xy: 1300, 1720
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Fleet Manufactory
-  rotate: false
-  xy: 1300, 1720
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Orbital Scanner
-  rotate: false
-  xy: 1300, 1720
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Shipyard Station
-  rotate: false
-  xy: 1300, 1720
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Advanced Turrets
   rotate: false
-  xy: 1516, 1720
+  xy: 1192, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Advanced Walls
   rotate: false
-  xy: 1516, 1720
+  xy: 1192, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Shelters
+  rotate: false
+  xy: 1300, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Advanced Ships
+  rotate: false
+  xy: 1408, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fleet Manufactory
+  rotate: false
+  xy: 1408, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Orbital Scanner
+  rotate: false
+  xy: 1408, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shipyard Station
+  rotate: false
+  xy: 1408, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -453,6 +460,13 @@ BuildingIcons/Heavy Turrets
   offset: 0, 0
   index: -1
 BuildingIcons/Heavy Wall
+  rotate: false
+  xy: 328, 1072
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Optimized Outpost
   rotate: false
   xy: 328, 1072
   size: 100, 100
@@ -942,20 +956,6 @@ NationIcons/Smugglers
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Jedi Order
-  rotate: false
-  xy: 544, 424
-  size: 99, 100
-  orig: 99, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/The Jedi Order
-  rotate: false
-  xy: 544, 424
-  size: 99, 100
-  orig: 99, 100
-  offset: 0, 0
-  index: -1
 PolicyIcons/Academics
   rotate: false
   xy: 1776, 1748
@@ -1395,6 +1395,20 @@ ReligionIcons/The Current
   xy: 1408, 532
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/The Force
+  rotate: false
+  xy: 544, 424
+  size: 99, 100
+  orig: 99, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Jedi Order
+  rotate: false
+  xy: 544, 424
+  size: 99, 100
+  orig: 99, 100
   offset: 0, 0
   index: -1
 ReligionIcons/The Mist
@@ -2566,6 +2580,27 @@ TileSets/FantasyHex/Units/Expansion Builder
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Expansion Builder (Level 2)
+  rotate: false
+  xy: 867, 340
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Expansion Builder (Level 3)
+  rotate: false
+  xy: 867, 340
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Expansion Builder (Level 4)
+  rotate: false
+  xy: 867, 340
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/FO Stormtrooper
   rotate: false
   xy: 939, 340
@@ -3007,6 +3042,27 @@ TileSets/FantasyHex/Units/Military Builder
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Military Builder (Level 2)
+  rotate: false
+  xy: 940, 212
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Military Builder (Level 3)
+  rotate: false
+  xy: 940, 212
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Military Builder (Level 4)
+  rotate: false
+  xy: 940, 212
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Missionary
   rotate: false
   xy: 1012, 212
@@ -3336,6 +3392,27 @@ TileSets/FantasyHex/Units/Research Builder
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Research Builder (Level 2)
+  rotate: false
+  xy: 148, 104
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Research Builder (Level 3)
+  rotate: false
+  xy: 148, 104
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Research Builder (Level 4)
+  rotate: false
+  xy: 148, 104
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Rey
   rotate: false
   xy: 220, 104
@@ -3511,6 +3588,27 @@ TileSets/FantasyHex/Units/Settler
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Settler (Level 2)
+  rotate: false
+  xy: 580, 44
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler (Level 3)
+  rotate: false
+  xy: 580, 44
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler (Level 4)
+  rotate: false
+  xy: 580, 44
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Settler-Imperial
   rotate: false
   xy: 4, 40
@@ -3567,7 +3665,7 @@ TileSets/FantasyHex/Units/Shock Trooper-Separatist
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Sith Assasin
+TileSets/FantasyHex/Units/Sith Assassin
   rotate: false
   xy: 652, 20
   size: 64, 56
@@ -3637,49 +3735,77 @@ TileSets/FantasyHex/Units/Stormtrooper
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Strategist
+TileSets/FantasyHex/Units/Strategic Worker
   rotate: false
   xy: 1732, 14
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Strategist-Separatist
+TileSets/FantasyHex/Units/Worker
+  rotate: false
+  xy: 1732, 14
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker (Level 2)
+  rotate: false
+  xy: 1732, 14
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker (Level 3)
+  rotate: false
+  xy: 1732, 14
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker (Level 4)
+  rotate: false
+  xy: 1732, 14
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Strategist
   rotate: false
   xy: 1516, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/TIE Bomber
+TileSets/FantasyHex/Units/Strategist-Separatist
   rotate: false
   xy: 1588, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/TIE Fighter
+TileSets/FantasyHex/Units/TIE Bomber
   rotate: false
   xy: 1660, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Techmaster
+TileSets/FantasyHex/Units/TIE Fighter
   rotate: false
   xy: 1804, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Temple Guard
+TileSets/FantasyHex/Units/Techmaster
   rotate: false
   xy: 1876, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper
+TileSets/FantasyHex/Units/Temple Guard
   rotate: false
   xy: 1948, 4
   size: 64, 56
@@ -3842,49 +3968,49 @@ UnitIcons/Speeder Gang
   index: -1
 UnitIcons/Advanced Trooper
   rotate: false
-  xy: 1408, 1720
+  xy: 1516, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bounty Hunter
   rotate: false
-  xy: 1408, 1720
+  xy: 1516, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Droideka
   rotate: false
-  xy: 1408, 1720
+  xy: 1516, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jet Trooper
   rotate: false
-  xy: 1408, 1720
+  xy: 1516, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Republic Commando
   rotate: false
-  xy: 1408, 1720
+  xy: 1516, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Security Elite
   rotate: false
-  xy: 1408, 1720
+  xy: 1516, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sith Trooper
   rotate: false
-  xy: 1408, 1720
+  xy: 1516, 1720
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -4247,6 +4373,13 @@ UnitIcons/Knight
   offset: 0, 0
   index: -1
 UnitIcons/Knight of Ren
+  rotate: false
+  xy: 220, 1288
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sith Assassin
   rotate: false
   xy: 220, 1288
   size: 100, 100
@@ -5087,7 +5220,7 @@ TileSets/FantasyHex/Tiles/Trade Point+Luxury
   index: -1
 TileSets/FantasyHex/Tiles/Tundra
   rotate: false
-  xy: 220, 132
+  xy: 292, 196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -5127,119 +5260,119 @@ TileSets/FantasyHex/Units/Clothes
   orig: 15, 24
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper Recruit
+TileSets/FantasyHex/Units/Trooper
   rotate: false
   xy: 4, 196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Trooper Recruit
+  rotate: false
+  xy: 4, 132
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Trooper Recruit-FO
-  rotate: false
-  xy: 4, 132
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Trooper-FO
-  rotate: false
-  xy: 4, 132
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Trooper Recruit-Imperial
   rotate: false
   xy: 76, 196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper Recruit-Rebel
+TileSets/FantasyHex/Units/Trooper-FO
+  rotate: false
+  xy: 76, 196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trooper Recruit-Imperial
   rotate: false
   xy: 4, 68
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper Recruit-Resistance
+TileSets/FantasyHex/Units/Trooper Recruit-Rebel
   rotate: false
   xy: 4, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper Recruit-Separatist
+TileSets/FantasyHex/Units/Trooper Recruit-Resistance
   rotate: false
   xy: 76, 132
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper Recruit-Smuggler
+TileSets/FantasyHex/Units/Trooper Recruit-Separatist
   rotate: false
   xy: 148, 196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Imperial
+TileSets/FantasyHex/Units/Trooper Recruit-Smuggler
   rotate: false
   xy: 76, 68
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Rebel Alliance
+TileSets/FantasyHex/Units/Trooper-Imperial
   rotate: false
   xy: 76, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Republic
+TileSets/FantasyHex/Units/Trooper-Rebel Alliance
   rotate: false
   xy: 148, 132
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Resistance
+TileSets/FantasyHex/Units/Trooper-Republic
   rotate: false
   xy: 220, 196
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Separatist
+TileSets/FantasyHex/Units/Trooper-Resistance
   rotate: false
   xy: 148, 68
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Smuggler
+TileSets/FantasyHex/Units/Trooper-Separatist
   rotate: false
   xy: 148, 4
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Vanguard
+TileSets/FantasyHex/Units/Trooper-Smuggler
   rotate: false
-  xy: 292, 196
+  xy: 220, 132
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Vulture Droid
+TileSets/FantasyHex/Units/Vanguard
   rotate: false
   xy: 220, 68
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Worker
+TileSets/FantasyHex/Units/Vulture Droid
   rotate: false
   xy: 220, 4
   size: 64, 56
@@ -5291,6 +5424,13 @@ UnitPromotionIcons/Scramble
 UnitPromotionIcons/Strike
   rotate: false
   xy: 364, 138
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Defense
+  rotate: false
+  xy: 436, 202
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
