@@ -21,7 +21,7 @@
 	{
 		"name": "Laboratory",
 		"science": 1,
-		"uniques": ["Great Improvement","[+1 Science] for each adjacent [Mountain]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+		"uniques": ["Great Improvement","[+2 Science] for each adjacent [Mountain]","[+1 Science] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
 	},
 	{
 		"name": "Command Center",
@@ -31,7 +31,7 @@
 	{
 		"name": "Factory",
 		"production": 1,
-		"uniques": ["Great Improvement","[+1 Production] for each adjacent [Extractor]","[+1 Production] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+		"uniques": ["Provides [1] [Battery]","Provides [1] [Engine] <after discovering [Spaceports]>","Great Improvement","[+1 Production] for each adjacent [Extractor]","[+1 Production] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
 	},
 	{
 		"name": "Radar Dish",
@@ -58,12 +58,12 @@
 	{
 		"name": "Outpost",
 		"happiness": 1,	
-		"uniques": ["Great Improvement","[+1 Happiness] for each adjacent [Forest]"]
+		"uniques": ["Great Improvement","[+1 Happiness] for each adjacent [Forest]","[+1 Happiness] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
 	},
 	{
 		"name": "Shield Generator",
 		"happiness": 1,
-		"uniques": ["Great Improvement"]
+		"uniques": ["Great Improvement","[+1 Happiness] for each adjacent [Jungle]","[+1 Happiness] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
 	},
 	// Military
 	{

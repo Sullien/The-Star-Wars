@@ -13,7 +13,7 @@
         "policies": [
             {
                 "name": "Supply Reserves",
-                "uniques": ["[+5 Food] [in all cities]"],
+                "uniques": ["[+3 Food] [in all cities]"],
                 "row": 1,
                 "column": 1
             },
@@ -93,7 +93,7 @@
 			{
                 "name": "Deal Closing",
 				"requires": ["Trade Studies","Private Routes"],
-                "uniques": ["Free [Research Builder] appears","[+100]% [Gold] [in capital]"],
+                "uniques": ["Free [Research Builder] appears","[+50]% [Gold] [in capital]"],
                 "row": 3,
                 "column": 3
             },
@@ -137,7 +137,7 @@
 			{
                 "name": "Funded Research",
 				"requires": ["Processing Advances"],
-                "uniques": ["Free Technology","Free [Worker] appears"],
+                "uniques": ["[+20]% [Science]","Free [Worker] appears"],
                 "row": 2,
                 "column": 4
             },
@@ -175,7 +175,7 @@
             },
             {
                 "name": "Force Sustain",
-                "uniques": ["[+1 Food] from [Nova] tiles [in all cities]","[+1 Happiness] from all [Faith] buildings"],
+                "uniques": ["[+1 Food] from [Nova] tiles [in all cities]","[+2 Happiness] from all [Faith] buildings"],
                 "row": 1,
                 "column": 5
             },	
@@ -189,7 +189,7 @@
 			{
                 "name": "Academics",
 				"requires": ["Force Sustain"],
-                "uniques": ["[+3 Science] from [Holocron] tiles [in all cities]","[+3 Culture] from [Crystals] tiles [in all cities]","[+1 Science] from [Nova] tiles [in all cities]","[+1 Culture] from all [Faith] buildings"],
+                "uniques": ["[+3 Science] from [Holocron] tiles [in all cities]","[+3 Culture] from [Crystals] tiles [in all cities]","[+1 Science] from [Nova] tiles [in all cities]","[+3 Culture] from all [Faith] buildings"],
                 "row": 2,
                 "column": 4
             },
@@ -407,7 +407,7 @@
             },
 			{
                 "name": "Automated Network",
-				"requires": ["Terrain Tactics","Applied Discoveries"],
+				"requires": ["Prime Producers","Trade Communications"],
                 "uniques": ["Free [Expansion Builder] appears","[+50]% Production when constructing [Civilian] units [in all cities]"],
                 "row": 3,
                 "column": 3
@@ -462,14 +462,14 @@
 			{
                 "name": "Breakthrough",
 				"requires": ["Artificial Intelligence","Intergalactic Research"],
-                "uniques": ["Free Technology","Free [Research Builder] appears"],
+                "uniques": ["[+25]% [Science]","Free [Research Builder] appears"],
                 "row": 3,
                 "column": 3
             },
             {
                 "name": "Inventors Complete",
                 "uniques": [
-                    "Free Technology","[+1 Happiness] [in all cities]",
+                    "[+25]% [Science]","[+1 Happiness] [in all cities]",
                 ]
             }
         ]
@@ -488,7 +488,7 @@
         "policies": [
             {
                 "name": "Force Influence",
-                "uniques": ["All [Jedi] units receive the [Force Influence] promotion","[+1 Culture] from all [Faith] buildings"],
+                "uniques": ["All [Jedi] units receive the [Force Influence] promotion","[+2 Culture] from all [Faith] buildings"],
                 "row": 1,
                 "column": 1
             },
@@ -514,7 +514,7 @@
             },
 			{
                 "name": "Order of the Force",
-				"requires": ["Artificial Intelligence","Intergalactic Research"],
+				"requires": ["Relative Interests","Instituted Temples"],
                 "uniques": ["Free [Master] appears","[-30]% Culture cost of adopting new Policies"],
                 "row": 3,
                 "column": 3
@@ -605,7 +605,7 @@
 			{
                 "name": "Trade Association",
 				"requires": ["Highest Bounty"],
-                "uniques": ["Free [Worker] appears","[+3 Culture] from all [Gold] buildings"],
+                "uniques": ["Free [Worker] appears","[+2 Culture] from all [Gold] buildings"],
                 "row": 2,
                 "column": 2
             },
@@ -619,7 +619,7 @@
 			{
                 "name": "Industry Spies",
 				"requires": ["Trade Association","Intergalactic Reputation"],
-                "uniques": ["Free [Research Builder] appears","[+3 Culture] from all [Science] buildings","[+3 Culture] from all [Food] buildings"],
+                "uniques": ["Free [Research Builder] appears","[+2 Culture] from all [Science] buildings","[+2 Culture] from all [Food] buildings"],
                 "row": 3,
                 "column": 3
             },

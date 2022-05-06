@@ -58,11 +58,11 @@
 	},
 	{
 		"name": "Jetpack",
-		"uniques": ["[+1] Movement","All tiles cost 1 movement"]
+		"uniques": ["[+1] Movement","Ignores terrain cost"]
 	},
 	{
 		"name": "Hero",
-		"uniques": ["Heals [20] damage if it kills a unit","[+100]% XP gained from combat","Can move after attacking","Uncapturable"]
+		"uniques": ["Heals [20] damage if it kills a unit","Bonus for units in 2 tile radius 15%","[+100]% XP gained from combat","Can move after attacking","Uncapturable"]
 	},
 	//Civ Exclusives
 	{
@@ -365,8 +365,8 @@
 		"unitTypes": ["Mech"]
 	},
 	{
-		"name": "Air Defenses",
-		"prerequisites": ["Reinforced Plating"]
+		"name": "Air Defense",
+		"prerequisites": ["Reinforced Plating"],
 		"uniques": ["[+25]% Strength <vs [Air] units>"],
 		"unitTypes": ["Mech"]
 	},
@@ -513,6 +513,7 @@
 	{
 		"name": "Logic Strike",
 		"prerequisites": ["Siege II"],
+		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Bomber"]
 	},
 	{
@@ -571,7 +572,6 @@
 	//Jedi
 	{
 		"name": "Force Stamina",
-		"prerequisites": ["Flight Deck II"],
 		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Jedi"]
 	},

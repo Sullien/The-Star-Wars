@@ -1,13 +1,18 @@
 {
     "name": "Global uniques", 
     "uniques": [
-        "[-60]% Culture cost of adopting new Policies",
-		"[0]% Great Person generation"
-		"May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([250])"
+	    "[-50]% Culture cost of adopting new Policies",
+		"[0]% Great Person generation",
+		"May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([250])",
 		"[-50]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-5] Happiness>",
         "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
-        "Rebel units may spawn <when below [-1] Happiness>"
+		"[+1] Unit Supply per [2] population [in all cities]",
+		"[+1] [Happiness] [in all cities connected to capital]",
+		"[+25]% [Production] [in all cities connected to capital]",
+		"[+50]% [Gold] [in all cities connected to capital]",
+        "Rebel units may spawn <when below [-1] Happiness>",
+		"[Great General] is earned [-100]% faster"
     ]
 }

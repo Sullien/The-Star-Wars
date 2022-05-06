@@ -113,8 +113,8 @@
 					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [40] <in [Featureless] [Plains] tiles>"],
-		"majorDepositAmount": {"sparse": 3, "default": 6, "abundant": 8},
-		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6}
+		"majorDepositAmount": {"sparse": 4, "default": 8, "abundant": 12},
+		"minorDepositAmount": {"sparse": 3, "default": 5, "abundant": 9}
 	},
 	{
 		"name": "Ore",
@@ -138,8 +138,8 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
+		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}
 	},
 	{
 		"name": "Nova",
@@ -155,7 +155,7 @@
 					"Minor deposits generated with weight [18] <in [Forest] tiles>",
 					"Minor deposits generated with weight [18] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [18] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 4},
+		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
@@ -171,8 +171,8 @@
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
+		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 5}
 	},
 	{
 		"name": "Engine",
@@ -193,8 +193,8 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 6},
+		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 5}
 	},
 	{
 		"name": "Reactor",
@@ -211,7 +211,7 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Desert] tiles>"],
-		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	// Luxury resources

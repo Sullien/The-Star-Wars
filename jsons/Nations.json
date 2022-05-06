@@ -240,7 +240,7 @@
 		"name": "Sith Eternal",
 		"leaderName": "Emperor Palpatine",
 		"adjective": ["Sith"],
-		"style": "Sith Eternal",
+		"style": "FO",
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
 

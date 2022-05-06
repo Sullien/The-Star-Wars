@@ -32,17 +32,17 @@
 	{
         "name": "Siege",
         "movementType": "Land",
-		"Uniques": ["Armor","Unable to capture cities"]
+		"Uniques": ["Armor","Ranged attacks may be performed over obstacles"]
     },
 	{
         "name": "Tactician",
         "movementType": "Land",
-		"Uniques": ["Infantry","Unable to capture cities"]
+		"Uniques": ["Infantry",]
     },
     {
         "name": "Mech",
         "movementType": "Land",
-		"Uniques": ["Armor","Unable to capture cities"]
+		"Uniques": ["Armor"]
     },
 	{
         "name": "Fighter",
@@ -62,7 +62,7 @@
 	{
         "name": "Starship",
         "movementType": "Land",
-        "uniques": ["Special","All tiles cost 1 movement","Can pass through impassable tiles","Unable to capture cities"]
+        "uniques": ["Special","Ignores terrain cost","Can pass through impassable tiles"]
     },
 	{
         "name": "Orbital Strike",

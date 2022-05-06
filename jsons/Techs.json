@@ -3,22 +3,12 @@
 		"columnNumber": 0,
 		"era": "Level 1",
 		"techCost": 10,
-		"buildingCost": 7,
+		"buildingCost": 10,
 		"techs": [
 		    {
-				"name": "AI Mechanics(Easy)",
+				"name": "AI Mechanics",
 				"row": 1,
-				"uniques": ["Only available <after discovering [AI Mechanics(Easy)]>","AI Exclusive"]
-			},
-			{
-				"name": "AI Mechanics(Normal)",
-				"row": 2,
-				"uniques": ["Only available <after discovering [AI Mechanics(Normal)]>","AI Exclusive"]
-			},
-			{
-				"name": "AI Mechanics(Hard)",
-				"row": 3,
-				"uniques": ["Only available <after discovering [AI Mechanics(Hard)]>","AI Exclusive"]
+				"uniques": ["Only available <after discovering [AI Mechanics]>","AI Exclusive"]
 			}
 			{
 				"name": "Center Base",
@@ -30,8 +20,8 @@
 	{
 		"columnNumber": 1,
 		"era": "Level 1",
-		"techCost": 15,
-		"buildingCost": 7,
+		"techCost": 18,
+		"buildingCost": 18,
 		"techs": [
 			{
 				"name": "Research",
@@ -53,8 +43,8 @@
 	{
 		"columnNumber": 2,
 		"era": "Level 1",
-		"techCost": 21,
-		"buildingCost": 12,
+		"techCost": 30,
+		"buildingCost": 24,
 		"techs": [
 			{
 				"name": "Organization",
@@ -91,8 +81,8 @@
 	{
 		"columnNumber": 3,
 		"era": "Level 2",
-		"techCost": 27,
-		"buildingCost": 15,
+		"techCost": 64,
+		"buildingCost": 36,
 		"techs": [
 			{
 				"name": "Processing",
@@ -115,8 +105,8 @@
 	{
 		"columnNumber": 4,
 		"era": "Level 2",
-		"techCost": 35,
-		"buildingCost": 23,
+		"techCost": 92,
+		"buildingCost": 48,
 		"techs": [
 			{
 				"name": "Ore",
@@ -158,8 +148,8 @@
 	{
 		"columnNumber": 5,
 		"era": "Level 3",
-		"techCost": 44,
-		"buildingCost": 34,
+		"techCost": 181,
+		"buildingCost": 96,
 		"techs": [
 			{
 				"name": "Specialism",
@@ -181,8 +171,8 @@
 	{
 		"columnNumber": 6,
 		"era": "Level 3",
-		"techCost": 54,
-		"buildingCost": 41,
+		"techCost": 250,
+		"buildingCost": 128,
 		"techs": [
 			{
 				"name": "Joint Development",
@@ -225,8 +215,8 @@
 	{
 		"columnNumber": 7,
 		"era": "Level 4",
-		"techCost": 65,
-		"buildingCost": 42,
+		"techCost": 512,
+		"buildingCost": 180,
 		"techs": [
 			{
 				"name": "Optimization",
@@ -248,8 +238,8 @@
 	{
 		"columnNumber": 8,
 		"era": "Level 4",
-		"techCost": 77,
-		"buildingCost": 50,
+		"techCost": 700,
+		"buildingCost": 240,
 		"techs": [
 			{
 				"name": "Scanning",
@@ -291,8 +281,8 @@
 	{
 		"columnNumber": 9,
 		"era": "Level 5",
-		"techCost": 90,
-		"buildingCost": 60,
+		"techCost": 2440,
+		"buildingCost": 480,
 		"techs": [
 			{
 				"name": "Heroes",
@@ -304,8 +294,8 @@
 	{
 		"columnNumber": 10,
 		"era": "Level 5",
-		"techCost": 104,
-		"buildingCost": 60,
+		"techCost": 2500,
+		"buildingCost": 480,
 		"techs": [
 			{
 				"name": "Future Tech",
