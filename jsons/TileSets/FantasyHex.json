@@ -38,7 +38,6 @@
 	"Plains+Jungle+Ancient ruins": ["Plains","Jungle","Ancient ruins"]
 	"Desert+Hill+Ancient ruins": ["Desert","Hill","Ancient ruins+Desert"]
 	"Forest+Ancient ruins": ["Forest","Ancient ruins"]
-	//Resource Specific
 	"Plains+Nerf+Shelter": ["Plains","Shelter+Bonus"]
 	"Plains+Bantha+Shelter": ["Plains","Shelter+Bonus"]
 	"Plains+Dewback+Shelter": ["Plains","Shelter+Bonus"]
@@ -199,8 +198,6 @@
 	"Plains+Hill+Forest+Ceramic+Trade Point": ["Plains","Hill+Forest","Trade Point+Luxury"]
 	"Plains+Hill+Forest+Sulfur+Trade Point": ["Plains","Hill+Forest","Trade Point+Luxury"]
 	"Plains+Hill+Forest+Artifact+Trade Point": ["Plains","Hill+Forest","Trade Point+Luxury"]
-	
-	//Grassland
 	"Grassland+Nerf+Shelter": ["Grassland","Shelter+Bonus"]
 	"Grassland+Bantha+Shelter": ["Grassland","Shelter+Bonus"]
 	"Grassland+Dewback+Shelter": ["Grassland","Shelter+Bonus"]
@@ -393,8 +390,6 @@
 	"Grassland+Hill+Forest+Ceramic+Trade Point": ["Grassland","Hill+Forest","Trade Point+Luxury"]
 	"Grassland+Hill+Forest+Sulfur+Trade Point": ["Grassland","Hill+Forest","Trade Point+Luxury"]
 	"Grassland+Hill+Forest+Artifact+Trade Point": ["Grassland","Hill+Forest","Trade Point+Luxury"]
-	
-	//Desert
 	"Desert+Nerf+Shelter": ["Desert","Shelter+Bonus"]
 	"Desert+Bantha+Shelter": ["Desert","Shelter+Bonus"]
 	"Desert+Dewback+Shelter": ["Desert","Shelter+Bonus"]
@@ -491,9 +486,6 @@
 	"Desert+Flood plains+Ceramic+Trade Point": ["Desert","Trade Point+Luxury"]
 	"Desert+Flood plains+Sulfur+Trade Point": ["Desert","Trade Point+Luxury"]
 	"Desert+Flood plains+Artifact+Trade Point": ["Desert","Trade Point+Luxury"]
-	
-	
-	//Tundra
 	"Tundra+Nerf+Shelter": ["Tundra","Shelter+Bonus"]
 	"Tundra+Bantha+Shelter": ["Tundra","Shelter+Bonus"]
 	"Tundra+Dewback+Shelter": ["Tundra","Shelter+Bonus"]
@@ -622,8 +614,6 @@
 	"Tundra+Hill+Forest+Ceramic+Trade Point": ["Tundra","Hill+Forest","Trade Point+Luxury"]
 	"Tundra+Hill+Forest+Sulfur+Trade Point": ["Tundra","Hill+Forest","Trade Point+Luxury"]
 	"Tundra+Hill+Forest+Artifact+Trade Point": ["Tundra","Hill+Forest","Trade Point+Luxury"]
-	
-	//Snow
 	"Snow+Nerf+Shelter": ["Snow","Shelter+Bonus"]
 	"Snow+Bantha+Shelter": ["Snow","Shelter+Bonus"]
 	"Snow+Dewback+Shelter": ["Snow","Shelter+Bonus"]
