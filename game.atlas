@@ -6,21 +6,21 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/AI Mechanics(Easy)
   rotate: false
-  xy: 1668, 1856
+  xy: 1776, 1856
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/AI Mechanics(Hard)
   rotate: false
-  xy: 1668, 1856
+  xy: 1776, 1856
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/AI Mechanics(Normal)
   rotate: false
-  xy: 1668, 1856
+  xy: 1776, 1856
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1761,23 +1761,9 @@ StatIcons/Science
   orig: 200, 200
   offset: 0, 0
   index: -1
-TechIcons/AI Mechanics(Easy)
+TechIcons/AI Mechanics
   rotate: false
-  xy: 1776, 1856
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/AI Mechanics(Hard)
-  rotate: false
-  xy: 1776, 1856
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/AI Mechanics(Normal)
-  rotate: false
-  xy: 1776, 1856
+  xy: 1668, 1856
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -5452,6 +5438,13 @@ UnitPromotionIcons/Scramble
 UnitPromotionIcons/Strike
   rotate: false
   xy: 364, 74
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Air Defense
+  rotate: false
+  xy: 436, 138
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
