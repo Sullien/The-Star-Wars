@@ -1167,7 +1167,7 @@
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
-		{"extraImage": "TileSets/FantasyHex/Units/Rebel Soldier",
+		{"extraImage": "TileSets/FantasyHex/Units/Exiled Jedi",
 				"imageSize": 256 }
 			{"text": "The Rebel Alliance Knight costs less to produce, and requires no Nova."}
 		]
@@ -1482,10 +1482,10 @@
 		"replaces": "Droid",
 		"uniqueTo": "Smugglers",
 		"movement": 2,
-		"range": 48,
+		"range": 2,
 		"strength": 7,
 		"rangedStrength": 12,
-		"cost": 20,
+		"cost": 48,
 		"uniques": ["Level 2","Infantry","Ignores terrain cost","Limited to [5] per Civilization","Can build [Land] improvements on tiles","Can build [Water] improvements on tiles"],
 		"attackSound": "blasterhit",
 		"civilopediaText": [
@@ -2197,7 +2197,7 @@
 		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
-		{"extraImage": "TileSets/FantasyHex/Units/FO TIE Fighter",
+		{"extraImage": "TileSets/FantasyHex/Units/TIE Fighter-FO",
 				"imageSize": 256 }
 			{"text": "The First Order Fighter costs no Engines and is slightly cheaper to produce. However it is is weaker than normal. This change does not carry over to Upgrades."}
 		]
