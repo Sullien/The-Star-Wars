@@ -401,7 +401,7 @@
 		"requiredTech": "Outposts",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Temples",
-		"uniques": ["Level 2","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 2","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit"
 		"civilopediaText": [
@@ -621,7 +621,7 @@
 		"requiredResource": "Nova",
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 3","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit"
 		"civilopediaText": [
@@ -894,7 +894,7 @@
 		"cost": 360,
 		"requiredResource": "Nova",
 		"requiredTech": "The Force",
-		"uniques": ["Level 4","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 4","Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]","Unbuildable","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit"
 		"civilopediaText": [
@@ -1163,7 +1163,7 @@
 		"cost": 168,
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1311,7 +1311,7 @@
 		"requiredResource": "Nova"
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+35]% Strength <vs [Jedi] units>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+35]% Strength <vs [Jedi] units>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1602,7 +1602,7 @@
 		"cost": 160,
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1880,7 +1880,7 @@
 		"requiredResource": "Nova",
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"],
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"],
 		"promotions": ["Lightsaber","Force Perception"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -1919,7 +1919,7 @@
 		"cost": 300,
 		"requiredResource": "Nova",
 		"requiredTech": "The Force",
-		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber","Force Cloak","Force Perception"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -2171,7 +2171,7 @@
 		"requiredResource": "Nova"
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+35]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+35]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Scarred"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -2306,7 +2306,7 @@
 		"requiredResource": "Nova"
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber","Force Cloak"],
 		"attackSound": "lshit",
 		"civilopediaText": [
@@ -2347,7 +2347,7 @@
 		"cost": 300,
 		"requiredResource": "Nova",
 		"requiredTech": "The Force",
-		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Force Lightning","Force Cloak","Force Perception"],
 		"attackSound": "elechit",
 		"civilopediaText": [
@@ -2393,7 +2393,7 @@
 		"cost": 160,
 		"requiredResource": "Nova",
 		"requiredTech": "The Force",
-		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Unbuildable", "Religious Unit","Hidden when religion is disabled"]
+		"uniques": ["Level 4","May capture killed [Infantry] units <with [75]% chance>","May capture killed [Armor] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystals] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Unbuildable", "Religious Unit","Hidden when religion is disabled"]
 		"promotions": ["Force Ghost"],
 		"attackSound": "lshit"
 		"civilopediaText": [
