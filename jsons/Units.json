@@ -2197,7 +2197,7 @@
 		"uniques": ["Level 3","[75]% chance to intercept air attacks","[+50]% Strength <vs [Infantry] units>","[+50]% Strength <vs [Air] units>"],
 		"attackSound": "laserhit",
 		"civilopediaText": [
-		{"extraImage": "TileSets/FantasyHex/Units/TIE Fighter-FO",
+		{"extraImage": "TileSets/FantasyHex/Units/FO Tie Fighter",
 				"imageSize": 256 }
 			{"text": "The First Order Fighter costs no Engines and is slightly cheaper to produce. However it is is weaker than normal. This change does not carry over to Upgrades."}
 		]
