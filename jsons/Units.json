@@ -1602,7 +1602,7 @@
 		"cost": 160,
 		"requiredTech": "Temples",
 		"obsoleteTech": "The Force",
-		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>"","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
+		"uniques": ["Level 3","May capture killed [Infantry] units <with [75]% chance>","Can construct [Force Temple] <in [Holocron] tiles>","Can construct [Force Temple] <in [Crystal] tiles>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>","Hidden when religion is disabled"]
 		"promotions": ["Lightsaber"],
 		"attackSound": "lshit",
 		"civilopediaText": [
