@@ -166,8 +166,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
-		"uniques": ["Rough terrain",
-					"Provides a one-time Production bonus to the closest city when cut down",
+		"uniques": ["Rough terrain", "Vegetation",
 					"Blocks line-of-sight from tiles at same elevation",
 					"[25]% Chance to be destroyed by nukes",
 					"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
@@ -177,8 +176,7 @@
 					"Considered [Production] when determining start locations",
 					"Considered [Food] when determining start locations <in [Forest] Regions>",
 					"Considered [Food] when determining start locations <in [Tundra] Regions>",
-					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
+					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Jungle",
@@ -189,7 +187,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Plains","Grassland"],
 		"uniques": [
-			"Rough terrain",
+			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
@@ -210,8 +208,7 @@
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature",
 					"[-2] to Fertility for Map Generation",
-					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
+					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Fallout",
