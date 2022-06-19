@@ -62,7 +62,7 @@
 		"name": "Force Temple",
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
 		"faith": 1,
-		"uniques": ["Great Improvement","Can only be built on [Holocron] tiles","Can only be built on [Crystals] tiles","[+1 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Jungle]","[+1 Faith] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
+		"uniques": ["Great Improvement","Can only be built to improve a resource","[+1 Faith] for each adjacent [Forest]","[+1 Faith] for each adjacent [Jungle]","[+1 Faith] for each adjacent [Great Improvement] <after discovering [Joint Development]>"]
 	},
 	{
 		"name": "Outpost",

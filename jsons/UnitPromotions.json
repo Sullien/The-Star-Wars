@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Hero",
-		"uniques": ["Heals [20] damage if it kills a unit","Bonus for units in 2 tile radius 15%","[+100]% XP gained from combat","Can move after attacking","Uncapturable"]
+		"uniques": ["Heals [20] damage if it kills a unit","[+15]% Bonus for [Military] units in 2 tile radius","[+100]% XP gained from combat","Can move after attacking","Uncapturable"]
 	},
 	//Civ Exclusives
 	{
@@ -378,7 +378,7 @@
 	},
 	{
 		"name": "Open Warfare",
-		"prerequisites": ["Hostile Takeover"],
+		"prerequisites": ["Air Defense"],
 		"uniques": ["[+1] Movement","[+20]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Mech"]
 	},
